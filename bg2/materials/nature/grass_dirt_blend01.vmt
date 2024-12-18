@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/groundplants001"
+	"$bumpmap" "nature/groundplants001_normal"
+	"$basetexture2" "nature/Dirtpebbles001"
+	"$bumpmap2" "nature/Dirtpebbles001_normal"
+	"$surfaceprop" "Grass"
+	"$surfaceprop2" "Dirt"
+	"$blendmodulatetexture"	"ground/quebecblendtextur"
+}

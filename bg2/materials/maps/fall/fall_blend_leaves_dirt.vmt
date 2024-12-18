@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "maps/fall/fall_dirt" 
+	"%detailtype" "coastline_grass01" 
+	"$surfaceprop" "dirt" 
+	"$basetexture2" "maps/fall/fall_leaves" 
+	"%tooltexture" "maps/fall/fall_leaves" 
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0" 
+	"$basetexturetransform2" "center .5 .5 scale 1 1 rotate 10 translate 0 0" 
+	"%keywords" "fall" 
+}
+
+

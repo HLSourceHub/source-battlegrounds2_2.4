@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "maps/fall/fall_mud_overlay"
+	"$decal" 1
+	"$decalscale" 0.30
+	"$translucent" 1
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"v_axe/tomahawk_normal"
+        "$nocull" 1
+}

@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"%detailtype" "woodland" 
+    	"$basetexture" "maps/fall/fall_dirt"
+	"$bumpmap" "maps/fall/fall_dirt_normal"
+}

@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/picket_post"
+	"$surfaceprop" "wood"
+}

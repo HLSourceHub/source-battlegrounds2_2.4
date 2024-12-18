@@ -1,0 +1,4 @@
+//BG2 - Tjoppen - we have our own surfaceprop definition file. the others are there for reference,
+//			except for the manifest file which points to this one.
+//see the other surfaceprop files for hints how to define your own
+//

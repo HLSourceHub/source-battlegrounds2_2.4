@@ -1,0 +1,7 @@
+"lightmappedgeneric"
+{
+	"$basetexture" "happyernst/e_dirt2"
+	"$detail" "overlays/macro01a"
+	"$detailscale" .1
+	"$surfaceprop" "dirt"
+}

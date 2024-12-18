@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\skybox\greenhills"
+	"$bumpmap" "models\bg2_props\skybox\greenhills_normal"
+}

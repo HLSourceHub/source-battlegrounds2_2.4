@@ -1,0 +1,23 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "semmel\sands\sem_sand01"
+	"$bumpmap"	"semmel\sands\sem_sand01_ssbump"
+	"$surfaceprop" "sand"
+
+	"$basetexture2" "semmel\grass\sem_grass_10"
+	"$bumpmap2"	"semmel\grass\sem_grass_10_ssbump"
+	"$surfaceprop2" "grass"
+	
+   	
+	
+	"$seamless_scale" "0.005"
+
+	"$ssbump"		"1"	
+	"$mathfix"		"1"	
+//	"$blendmodulatetexture"    "texture/sem_dirt01_blend"
+
+	"$basetexturetransform" "center .005 .5 scale 2.0 2.0 rotate 0 translate 0 0"
+	"%keywords" "semmel"
+//	"%detailtype" "somme_grass01"
+	
+}

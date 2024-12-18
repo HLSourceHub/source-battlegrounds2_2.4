@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "tax\tax_rugdecalside"
+    "$decal" 1
+    "$decalscale" 0.3
+    "$translucent" 1
+}

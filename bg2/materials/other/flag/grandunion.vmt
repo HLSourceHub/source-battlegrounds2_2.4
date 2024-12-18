@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "other\flag/grand_union"
+	"$translucent" 1
+ 	"$alphatest" 1
+}

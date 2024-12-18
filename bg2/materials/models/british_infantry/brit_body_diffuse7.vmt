@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/british_infantry/altskin/brit_body_diffuse3"
+	"$bumpmap" "models/british_infantry/altskin/brit_body_normal"
+	"$nocull" "1"
+}
+

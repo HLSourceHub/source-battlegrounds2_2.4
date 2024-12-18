@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "map/cliff_01_v1"
+	"$basetexture2" "map/cliff_01_v2"
+	"$bumpmap" "map/cliff_01_normal.vtf"
+	"$bumpmap2" "map/cliff_01_normal.vtf"
+	"$surfaceprop" "cliff"
+	"%keywords" "cliff"
+}

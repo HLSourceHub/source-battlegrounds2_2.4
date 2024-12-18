@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "happyernst/e_dirt2"
+	"$bumpmap" "happyernst/e_ground1_bump"
+	"$basetexture2" "nature/grassfloor003a"
+	"$bumpmap2" "happyernst/e_ground1_bump"
+	"$detail" "detail/noise_detail_01"
+	"$detailscale" 8
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 1 1 rotate 10 translate 0 0"
+	"$surfaceprop" "dirt"
+}

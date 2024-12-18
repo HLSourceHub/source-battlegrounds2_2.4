@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	// Original shader: VertexLitSelfIlluminatedTexture
+	"$baseTexture" "models\props_furniture/ceiling_lantern"
+	"$envmap" "env_cubemap"
+	"$envmapmask" "models\props_furniture/ceiling_lantern_spec"
+	"$halflambert" 1
+	"$selfillum" 1
+}
+
+

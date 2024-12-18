@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "mount_and_musket/BrickOldSharp0215_S"
+	"$surfaceprop" "boulder"
+	"$bumpmap" "mount_and_musket/BrickOldSharp0215_S_normal"
+}

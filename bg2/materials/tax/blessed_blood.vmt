@@ -1,0 +1,8 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "tax/blessed_blood"
+    	"$decal" 1
+  	  "$decalscale" .2
+   	 "$translucent" 1
+//"$alphatest" 1
+}

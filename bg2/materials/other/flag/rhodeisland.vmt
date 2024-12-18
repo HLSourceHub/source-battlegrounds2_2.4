@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "other\flag/rhodeisland"
+	"$translucent" 1
+ 	"$alphatest" 1
+}

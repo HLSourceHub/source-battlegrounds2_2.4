@@ -1,0 +1,6 @@
+"Unlitgeneric"
+{
+	"$baseTexture" "hud/hud_base_small"
+	"$translucent" 1
+	//Swingometer is 62 pixels lower.
+}

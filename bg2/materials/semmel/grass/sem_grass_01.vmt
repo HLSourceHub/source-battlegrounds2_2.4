@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "semmel/grass/sem_grass_01"
+	"$bumpmap" "semmel/grass/sem_grass_01_nor"
+	"$surfaceprop" "grass"
+
+	$seamless_scale 0.005
+
+	$basetexturetransform "center .15 .5 scale 1.05 1.05 rotate 0 translate 0 0"
+
+	"%detailtype" "grass_lowdensity"
+
+
+}

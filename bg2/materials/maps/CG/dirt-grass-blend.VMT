@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "maps/CG/CG_GRASS"
+   	"$basetexture2" "nature/dirtfloor003a"
+   	"%tooltexture" "maps/CG/CG_GRASS"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0" 
+   "$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+   "%detailtype" "coastline_grass01"
+}

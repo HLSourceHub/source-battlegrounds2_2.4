@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+   	"$basetexture" "maps\tomdon\tomdon_grass_dark"
+	"$basetexture2" "nature/grassfloor003a"
+   	"%tooltexture" "maps\tomdon\tomdon_grass_dark"
+	"$surfaceprop" "dirt"
+}

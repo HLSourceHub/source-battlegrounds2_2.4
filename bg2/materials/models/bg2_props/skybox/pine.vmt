@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/bg2_props/skybox/pine"
+	"$translucent" 1
+	"$alphatest" 1
+}

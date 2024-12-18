@@ -1,0 +1,5 @@
+"Unlitgeneric"
+{
+	"$baseTexture" "hud/d_skull"
+	"$translucent" 1
+}

@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "happyernst/e_cliff_01_v2"
+	"$basetexture2" "happyernst/e_ground1"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 1 1 rotate 10 translate 0 0"
+	"$surfaceprop" "dirt"
+	"$bumpmap" "happyernst/e_cliff_01_v2_normal"
+}

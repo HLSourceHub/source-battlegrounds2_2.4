@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/frontiersman/frontier_diffuse02"
+        "$nocull" 1
+        "$bumpmap" "models/frontiersman/frontier_normal02"	
+}

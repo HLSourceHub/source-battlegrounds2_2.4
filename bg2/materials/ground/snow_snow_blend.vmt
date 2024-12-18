@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "ground/snow"
+	"$bumpmap" "ground/snow_normal"
+	"$basetexture2" "bg_grantel/snow"
+	"$surfaceprop" "Ice"
+	"$surfaceprop2" "Snow"
+}

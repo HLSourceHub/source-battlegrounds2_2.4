@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "other\flag/joinordie"
+	"$translucent" 1
+ 	"$alphatest" 1
+}

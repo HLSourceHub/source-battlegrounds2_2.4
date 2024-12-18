@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "overlays/pineneedles"
+	"$translucent" 1
+}

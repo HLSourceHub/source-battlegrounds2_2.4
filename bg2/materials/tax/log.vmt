@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture"	"tax/log"
+	"$bumpmap"           "tax/log_normal"
+
+}

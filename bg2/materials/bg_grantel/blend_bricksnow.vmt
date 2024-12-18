@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+"$basetexture" "stone/stonewall029a"
+"$basetexture2" "nature/snowfloor001a"
+"$surfaceprop" "boulder"
+"$surfaceprop2" "snow" 
+}

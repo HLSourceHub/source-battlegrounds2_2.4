@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+	$basetexture2 			nature/dirt07
+   	$basetexture 			nature/grass01
+	$blendmodulatetexture 		ground/concordgrassblend
+	%detailtype 			Peacekeeper
+	$detail 			detail/dirt_detail
+	$detailscale 			4
+	$detailblendfactor 		0.5
+}

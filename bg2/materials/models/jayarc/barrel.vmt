@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/jayarc/barrel"
+	"$surfaceprop" "Wood_Box"
+}

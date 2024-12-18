@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\trees\pine/pine_branch"
+	"$translucent" 1
+        "$nocull" 1 
+	"$alphatest" 1
+}

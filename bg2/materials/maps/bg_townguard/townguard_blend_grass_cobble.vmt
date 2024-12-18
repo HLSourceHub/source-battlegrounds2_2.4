@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "maps/tomdon/tomdon_grass_dark"
+	"$basetexture2" "maps/tomdon/tomdon_cobbles"
+	"$bumpmap2" "maps/tomdon/tomdon_cobbles_normal"
+	"$surfaceprop" "Grass"
+	"$surfaceprop2" "Rock"
+}

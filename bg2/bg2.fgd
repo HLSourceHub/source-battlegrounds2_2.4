@@ -1,0 +1,378 @@
+////////////////////////////////////////////////////////
+//The Battlegrounds 2 - An open source modification.
+//game definition file (.fgd)
+//
+//Last modified - 04/03/07 - Grantelbart: removed old unfunctional uncap keyvalue from flag
+//Modified - 04/09/08 - HairyPotter: Removed the morale values, which were useless.
+//Modified - 12/26/08 - HairyPotter: Added some King of the Hill values.
+//Modified - 2/25/09 - HairyPotter: Removed KOTH values. We're going to use the existing flag ent like a KOTH point as well.
+//Modified - 5/02/09 - HairyPotter: Added CaptureSounds field to normal flags.
+//As there is now an option that allows you to disable fullcaps on flags, so they can be held as points. Also flags can now be invisible.
+//
+////////////////////////////////////////////////////////
+
+@include "hl2mp.fgd"
+
+//=============================================
+//flag
+//=============================================
+@PointClass base(Angles) studio("models/other/flag.mdl") = flag : "An BG flag objective."
+[
+	targetname(string)		: "Name"				: "" : "The name that other entities refer to this entity by."
+
+	CapturePlayers(integer)		: "Players for capture"			: 1   : "How many players are needed from one team to capture this flag?"
+
+	StartingTeam(choices) : "Starting Team" : "Neither" : "Which team owns the flag at the start of the map/round?" =
+	[
+		0 : "Neither"
+		1 : "Americans"
+		2 : "British"
+	]
+	
+	CaptureRadius(float)		: "Radius for capture"			: 128 : "How close must the player(s) be to initiate the capture timer?"
+	
+	CaptureTime(float)			: "Time for capture"			: 3   : "For how long must this flag be held before it's captured?"
+
+	TeamBonus(integer)			: "Team Bonus"					: 10  : "On capture, give this score to the team"
+
+	TeamBonusInterval(integer)	: "Team Bonus Interval"			: 20  : "Add the Team Bonus to the team score after this many seconds"
+
+	PlayerBonus(integer)		: "Player Bonus"				: 1  : "On capture, give this many points to the players involved in the capture"
+
+	ForTeam(choices) : "For What Team?" : "Both" : "What teams can capture this point?" =
+	[
+		0 : "Both"
+		1 : "Americans Only"
+		2 : "British Only"
+	]
+
+	FlagName(string)			: "Name of flag"				: ""  : "What will this flag be called in the HUD?"
+
+	Invisible(integer)		: "Flag is Invisibe?"			: 0	: "Setting this to 1 will make the flag invisible."
+
+	HUDSlot(integer)			: "Slot in HUD"					: 0   : "Which slot should this flag be in the HUD? 0 = auto, 1-15 = slot 1-15, -1 = hidden(not drawn in HUD)"
+
+	FullCap(choices) : "FullCap Team" : "Both" : "Which team will have to cap this flag for fullcaps?" =
+	[
+		0 : "Both"
+		1 : "Americans"
+		2 : "British"
+		3 : "Neither"
+	]
+	
+	NotUncappable(integer)		: "Not uncappable"			: 0	: "0 = uncappable, 1 = not uncappable(old flags)"
+	UncapOnDeath(integer)		: "Uncap on death"			: 0	: "1 = uncap this flag when all overloaders are dead"
+
+	CaptureSound(sound) : "Capture Sound" : "Flag.capture" : "Name of the flag capture sound/script. Also supports direct .wav filenames."
+
+	skin(integer) : "Flag Skin Preview" : 0 : "THIS FUNCTION EXISTS FOR PREVIEW PURPOSES! PLEASE SET THE SKINS IN THEIR PROPER FIELDS BELOW!"
+	NeutralFlagSkin(integer)	: "Neutral flag skin"		: 2 : "Skin number to use when this flag is neutral"
+	BritishFlagSkin(integer)	: "British flag skin"		: 1 : "Skin number to use when this flag is held by the British"
+	AmericanFlagSkin(integer)	: "American flag skin"		: 0 : "Skin number to use when this flag is held by the Americans"
+
+	spawnflags(Flags) =
+	[
+		1 : "Start Disabled" : 0
+	]
+
+	input Enable(void)	: "Enable the flag for capturing"
+	input Disable(void)	: "Disable the flag from capturing"
+	input Toggle(void)	: "Toggle whether the flag is able to be captured"
+	input ForceCap(integer) : "Force the flag to be taken by a certain team. 1 = Americans, 2 = British. Defaults to 1."
+
+	output OnAmericanStartCapture(void) : "Fires when the American team starts capturing "
+	output OnBritishStartCapture(void)	: "Fires when the British team starts capturing"
+	output OnStartCapture(void)			: "Fires when any team starts capturing"
+	output OnAmericanCapture(void)		: "Fires when the American team captures"
+	output OnBritishCapture(void)		: "Fires when the British team captures"
+	output OnCapture(void)				: "Fires when any team captures"
+	output OnAmericanStopCapture(void)	: "Fires when the American team abandons capturing"
+	output OnBritishStopCapture(void)	: "Fires when the British team abandons capturing"
+	output OnStopCapture(void)			: "Fires when any team abandons capturing"
+	output OnAmericanLosePoint(void)	: "Fires when the American team loses the point, or on round reset"
+	output OnBritishLosePoint(void)		: "Fires when the British team loses the point, or on round reset"
+	output OnLosePoint(void)			: "Fires when any team loses the point, or on round reset"
+]
+//=============================================
+//flag trigger
+//=============================================
+@SolidClass base(Trigger) = flag_trigger :
+	"A trigger that works as the capturefield for flags."
+[
+	FlagParentName(string)		: "Flag Name"				: "" : "The name of the flag this trigger is connecting to."
+]
+
+//=============================================
+//info_player_american
+//=============================================
+@PointClass base(PlayerClass, Angles) studio("models/player/american/medium_a/medium_a.mdl") = info_player_american : "An American spawn point. Place at least 16-32 points, more than 32 units apart"
+[
+	targetname(string)		: "Name"				: "" : "The name that other entities refer to this entity by."
+
+	spawnflags(Flags) =
+	[
+		1 : "Start Disabled" : 0
+	]
+
+	input Enable(void) : "Enables this spawnpoint - players can spawn here"
+	input Disable(void) : "Disables this spawnpoint - players can't spawn here"
+	input Toggle(void) : "Toggles this spawnpoint between enabled/disabled"
+]
+
+//=============================================
+//info_player_british
+//=============================================
+@PointClass base(PlayerClass, Angles) studio("models/player/british/medium_b/medium_b.mdl") = info_player_british : "A British spawn point. Place at least 16-32 points, more than 32 units apart"
+[
+	targetname(string)		: "Name"				: "" : "The name that other entities refer to this entity by."
+
+	spawnflags(Flags) =
+	[
+		1 : "Start Disabled" : 0
+	]
+
+	input Enable(void) : "Enables this spawnpoint - players can spawn here"
+	input Disable(void) : "Disables this spawnpoint - players can't spawn here"
+	input Toggle(void) : "Toggles this spawnpoint between enabled/disabled"
+]
+
+//=============================================
+//info_player_multispawn
+//=============================================
+@PointClass base(PlayerClass, Angles) studio("models/player.mdl") = info_player_multispawn : "A spawnpoint that can spawn both Americans and British. Place at least 16-32 points, more than 32 units apart"
+[
+	targetname(string)		: "Name"				: "" : "The name that other entities refer to this entity by."
+
+	spawnflags(Flags) =
+	[
+		1 : "Start Disabled" : 0
+	]
+
+	StartingTeam(choices) : "Default Team" : "British" : "Default team for the spawnpoint to spawn." =
+	[
+		0 : "British"
+		1 : "Americans"
+	]
+
+	input Enable(void) : "Enables this spawnpoint - players can spawn here"
+	input Disable(void) : "Disables this spawnpoint - players can't spawn here"
+	input Toggle(void) : "Toggles this spawnpoint between enabled/disabled"
+	input ToggleTeam(void) : "Inverts this spawnpoint's team between American/Brtish"
+	input SetAmerican(void) : "Set's the spawnpoint to spawn American players"
+	input SetBritish(void) : "Set's the spawnpoint to spawn British players"
+]
+
+@PointClass size(-4 -4 -4, 4 4 4) color(100 180 0) = mapfilter_excluder : "Used to add extra entities to keep on round restart. By classname or by targetname"
+[
+	ExcludeByTargetName(choices) : "Exclude by targetname?" : 0 : "Should this excluder work by classname or by targetname?" =
+	[
+		0 : "By classname"
+		1 : "By targetname"
+	]
+
+	ClassOrTargetName(string) : "Classname/targetname?" : "" : "Which classname/targetname?"
+]
+@PointClass size(-4 -4 -4, 4 4 4) color(100 180 0) = bg2_maptrigger : "Used to set certain settings on other entities when a map or round is won by a team"
+[
+	targetname(string)		: "Name"				: "" : "The name that other entities refer to this entity by."
+
+	output OnAmericanWinRound(void)	: "Fires when the Americans capture all flags or kill all British."
+	output OnBritishWinRound(void)	: "Fires when the British capture all flags or kill all Americans."
+	output OnAmericanWinMap(void)		: "Fires when the Americans win the map."
+	output OnBritishWinMap(void)		: "Fires when the British win the map."
+	output OnDraw(void)			: "Fires when neither teams win the map."
+
+	input ForceAmericanWinRound(void) 	: "Forces the current round to be won by the American Team"
+	input ForceBritishWinRound(void)	: "Forces the current round to be won by the British Team"
+	input ForceDrawRound(void)	: "Forces the current round to be a Draw"
+]
+//=============================================
+//ctf_flag
+//=============================================
+@PointClass base(Angles) studio("models/other/flag.mdl") = ctf_flag : "Flag for BG2 CTF Mode"
+[
+	targetname(string)		: "Name"				: "" : "The name that other entities refer to this entity by."
+	
+	PickupRadius(float)		: "Radius for Pickup"			: 50 : "Radius In Which A Player Can Pickup The Flag."
+
+	FlagWeight(integer)		: "Weight of Flag"			: 20	: "Amount of speed reduced when carrying the flag."
+
+	PickupSound(sound) : "Pickup Sound" : "" : "Name of the GameSound entry for the sound to play when a player picks up a flag. Also supports direct .wav filenames."
+
+	DropSound(sound) : "Drop Sound" : "" : "Name of the GameSound entry for the sound to play when a player drops a flag. Also supports direct .wav filenames."
+
+	ReturnSound(sound) : "Return Sound" : "" : "Name of the GameSound entry for the sound to play when a flag is returned. Also supports direct .wav filenames."
+
+	ReturnTime(float)		: "Flag Return Time"			: 20 : "Time in seconds before the flag returns to it's spawn."
+
+	ForTeam(choices) : "For Team" : "Both" : "Which team will be able to pickup this flag?" =
+	[
+		0 : "Both"
+		1 : "British"
+		2 : "Americans"
+	]
+
+	spawnflags(Flags) =
+	[
+		1 : "Start Disabled" : 0
+	]
+	
+	output OnPickedUp(void)			: "Fires whenever someone picks up the flag."
+	output OnDropped(void)			: "Fires whenever someone drops the flag."
+	output OnReturned(void)			: "Fires whenever the flag returns."
+	output OnEnabled(void)			: "Fires whenever the flag is enabled. (This happens even if toggled)"
+	output OnDisabled(void)			: "Fires whenever the flag is disabled. (This happens even if toggled)"
+
+	input Reset(void) 	: "Resets the flag."
+	input Enable(void)	: "Enable the flag for capturing."
+	input Disable(void)	: "Disable the flag from capturing."
+	input Toggle(void)	: "Toggle whether the flag is enabled/disabled."
+]
+@SolidClass base(Trigger) = trigger_ctf_capturepoint :
+	"A trigger that works as the capturefield for CTF mode."
+[
+
+	TeamBonus(integer)		: "Team Bonus"					: 10  : "On capture, give this score to the team"
+
+	PlayerBonus(integer)		: "Player Bonus"				: 1  : "On capture, give this many points to the players involved in the capture"
+
+	CaptureSound(sound) : "Capture Sound" : "Flag.capture" : "Name of the GameSound entry for the sound to play when a player captures a flag. Also supports direct .wav filenames."
+
+	TeamCapture(choices) : "For Team" : "Both" : "Which team will be able to use this for capturing the flag?" =
+	[
+		0 : "Both"
+		1 : "British"
+		2 : "Americans"
+	]
+	
+	output OnFlagCaptured(void)			: "Fires when a flag is captured using this trigger."
+]
+
+@PointClass base(Angles) studio("models/bg2_props/bg_cannon/cannon_new.mdl") = cannon : "Cannon entity"
+[
+	spawnflags(flags) =
+	[
+		1 : "Active" : 0
+		16: "Only Direct" : 0
+		32: "Controllable" : 0
+		64: "Damage Kick" : 0
+	      1024: "NPC Controllable" : 0
+            2048: "NPC Set Controller" : 0
+	      4096: "Allow friendlies to hit player" : 0
+	     32768: "Non-solid." : 0
+	    131072: "Perfect accuracy every 3rd shot at player" : 0
+	]
+
+	control_volume(target_destination) : "Control Volume" : "" : "Name of a trigger the specifies the volume in which a player must be to control this tank."
+
+	// Mainly for use with 1009 team settings (game_team_master)
+	master(string) : "(Team) Master" 
+
+	yawrate(string) : "Yaw rate" : "30"
+	yawrange(string) : "Yaw range" : "180"
+	yawtolerance(string) : "Yaw tolerance" : "15"
+	pitchrate(string) : "Pitch rate" : "0"
+	pitchrange(string) : "Pitch range" : "0"
+	pitchtolerance(string) : "Pitch tolerance" : "5"
+	barrel(string) : "Barrel Length" : "0"
+	barrely(string) : "Barrel Horizontal" : "0"
+	barrelz(string) : "Barrel Vertical" : "0"
+	spritesmoke(sprite) : "Smoke Sprite" : ""
+	spriteflash(sprite) : "Flash Sprite" : ""
+	spritescale(string) : "Sprite scale" : "1"
+	rotatestartsound(sound) : "Rotate Start Sound" : ""
+	rotatesound(sound) : "Rotate Loop Sound" : ""
+	rotatestopsound(sound) : "Rotate Stop Sound" : ""
+	firerate(string) : "Rate of Fire" : "1"
+	bullet_damage(string) : "Damage Per Bullet" : "0" : "If set to 0, it'll use the base weapon bullet's damage."
+	bullet_damage_vs_player(string) : "Damage Per Bullet Vs Player" : "0" : "If set to 0, it'll use the Damage Per Bullet value."
+	persistence(string) : "Firing persistence" : "1" : "(Seconds) How long to keep firing at last known position after lose sight of target"
+	persistence2(string) : "Firing persistence2" : "0" : "(Seconds) After lost enemy and persistence time has passed, how long to occasionally fire at enemy's last known position"
+	firespread(choices) : "Bullet accuracy" : 0 =
+	[
+		0: "Perfect Shot"
+		1: "Small cone"
+		2: "Medium cone"
+		3: "Large cone"
+		4: "Extra-large cone"
+	]
+	minRange(string) : "Minmum target range" : "0"
+	maxRange(string) : "Maximum target range" : "0"
+	_minlight(string) : "Minimum light level"
+
+	gun_yaw_pose_param(string) : "Gun Yaw Pose Param" : "" : "If Parent + the Gun Pitch Pose Param is specified, then the gun itself will be invisible and the func_tank will steer a gun on the parent using the pose parameters."
+	gun_yaw_pose_center(float) : "Gun Yaw Pose Center" : "0" : "The center yaw pose parameter of the gun on the parent"
+	gun_pitch_pose_param(string) : "Gun Pitch Pose Param" : "" : "If Parent + the Gun Yaw Pose Param is specified, then the gun itself will be invisible and the func_tank will steer a gun on the parent using the pose parameters."
+	gun_pitch_pose_center(float) : "Gun Pitch Pose Center" : "0" : "The center pitch pose parameter of the gun on the parent"
+
+	ammo_count(integer) : "Ammunition Count" : -1 : "Only applies to player use. -1 = unlimited ammo."
+
+	LeadTarget(choices) : "Lead Target" : "No" =
+	[
+		0 : "No"
+		1 : "Yes"
+	]
+
+	npc_man_point(target_destination) : "NPC Man Point" : "" : "Point where NPC must stand to man this func_tank."
+	playergraceperiod(float) : "Post-NPC Attack Grace Period" : "0" : "If specified, NPC's manning this func tank won't fire at the player, after firing at a non-player, for this amount of time."
+	ignoregraceupto(float) : "Ignore Grace Upto" : "768" : "The player grace period is ignored if the player's under this distance from the func_tank."
+	playerlocktimebeforefire(float) : "Player Lock Time" : "0" : "The tank must have the player as a target for this amount of time before it's allowed to fire."
+
+	effecthandling(choices) : "Effect Handling" : 0 =
+	[
+		0 : "Use Individual Settings."
+		1 : "AR2"
+		2 : "Combine Cannon"
+	]
+
+	// Inputs
+	input Activate(void) : "Turn the tank on"
+	input Deactivate(void) : "Turn the tank off (go dormant)"
+	input SetFireRate(string) : "How fast to fire (0 = don't fire)"
+	input SetDamage(string) : "Set the Damage Per Bullet"
+	input SetTargetPosition(string) : "World position that I should aim at"
+	input SetTargetDir(vector) : "Direction to aim at."
+	input SetTargetEntityName(string) : "Name of entity I should follow/attack"
+	input SetTargetEntity(string) : "Entity I should follow/attack (output from other entity only)"
+	input ClearTargetEntity(void) : "Clear the entity I should be attacking."
+	input FindNPCToManTank(string) : "Find a nearby NPC to man this func_tank."
+	input StartFindingNPCs(void) : "Start searching for NPCs to man this func_tank."
+	input StopFindingNPCs(void) : "Stop searching for NPCs to man this func_tank."
+	input ForceNPCOff(void) : "Force the NPC manning this func_tank (if any) to leave."
+	input SetMaxRange(float) : "Set the max range of the func_tank."
+
+	// Outputs
+	output OnFire(void) : "Fires when the tank fires its bullets"
+	output OnAquireTarget(void) : "Fires when target is newly in range and can be shot"
+	output OnLoseTarget(void) : "Fires when when target goes out of range"
+	output OnAmmoDepleted(void) : "Fires when tank runs out of ammo"
+	output OnGotController(void) : "Fires when an NPC starts to control this tank. Players do NOT fire this input."
+	output OnLostController(void) : "Fires when the NPC controller of the tank stops controlling it. Players do NOT fire this input."
+	output OnGotPlayerController(void) : "Fires when a Player starts to control this tank. NPCs do NOT fire this input."
+	output OnLostPlayerController(void) : "Fires when the Player controller of the tank stops controlling it. NPCs do NOT fire this input."
+	output OnReadyToFire(void) : "Fires once when the tank is done waiting to fire between rounds"
+
+	ammotype(choices) : "Ammo type" : "" = 
+	[
+		"" : "None"
+		"Pistol" : "Pistol"
+		"SMG1" : "SMG1"
+		"AR2" : "AR2"
+		"CombineHeavyCannon" : "Combine Heavy Cannon"
+	]
+
+	spawnflags(flags) =
+	[
+		8192: "Ignore range when making viewcone checks" : 0
+		256 : "Aiming Assistance (Player Only)" : 0
+	]
+]
+
+@SolidClass base(trigger_hurt) = trigger_hurt_team : "Like trigger_hurt, except it only hurts players on one of the teams"
+[
+	team(choices) : "For Team" : "Americans" : "Which team is hurt by this trigger?" =
+	[
+		2 : "Americans" //TEAM_AMERICANS
+		3 : "British"	//TEAM_BRITISH
+	]
+]

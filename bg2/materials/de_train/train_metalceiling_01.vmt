@@ -1,0 +1,8 @@
+LightmappedGeneric
+{
+	"$basetexture"	"de_train\train_metalceiling_01"
+	"$surfaceprop" "metalgrate"
+	"$detail" "detail/metal_detail_01"
+	"$detailscale" "0.25"
+
+}

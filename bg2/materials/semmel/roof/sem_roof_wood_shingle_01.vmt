@@ -1,0 +1,10 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "semmel/roof/sem_roof_wood_shingle_01"
+	"$surfaceprop" "wood"
+//	"$bumpmap" "semmel/wood/sem_wood_planks_new_01_nor"
+
+	"$reflectivity" "[0.75 0.75 0.75]"
+//	"$seamless_scale" "0.006"
+	"%keywords" "semmel" 
+}

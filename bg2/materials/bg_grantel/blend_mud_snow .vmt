@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "bg_grantel/snow"
+        "$basetexture2" "nature/mudfloor005a"
+	"$surfaceprop" "snow"
+	"$surfaceprop2" "dirt"
+	"$detail" "bg_grantel/detail_snowlake"
+	"$detailscale" .2
+	"$blendmodulatetexture" "ground/concordgrassblend"
+	"$blendmasktransform" "center .5 .5 scale 3 3 rotate 0 translate 0 0"
+}

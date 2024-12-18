@@ -1,0 +1,5 @@
+"Unlitgeneric"
+{
+	"$baseTexture" "hud/hud_base_small"
+	"$translucent" 1
+}

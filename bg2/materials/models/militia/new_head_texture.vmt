@@ -1,0 +1,13 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/militia/new_head_texture"	
+"$bumpmap" "models/militia/new_head_texture_normal"
+	"$nocull" "1"
+"$phong" "1"
+"$phongexponent" 5
+"$phongboost""7"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+}
+
+

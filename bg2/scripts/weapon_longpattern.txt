@@ -1,0 +1,44 @@
+// Long Pattern
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"Longpattern"
+	"viewmodel"			"models/weapons/v_longpattern.mdl"
+	"playermodel"			"models/longpattern/w_longpattern.mdl"
+	"anim_prefix"			"shotgun"
+	"bucket"				"0"
+	"bucket_position"		"4"
+
+	"clip_size"			"1"
+	"default_clip"			"12"
+	"primary_ammo"			"357"
+	"secondary_ammo"		"None"
+
+	"weight"				"0"
+	"item_flags"			"0"
+
+	"ironsights_x"		"-17.0"
+	"ironsights_y"		"-8.0"
+	"ironsights_z"		"6.7"
+	"ironsights_pitch"	"-0.475"
+	"ironsights_yaw"	"0.16"
+	"ironsights_roll"	"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_LongPattern.Single"
+		"reload"		"Weapon_LongPattern.Reload"
+		"deploy"		"Weapon_Brownbess.Deploy"
+	       	"melee_hit"		"Weapon_Brownbess.Melee_Missnot"
+		"melee_hit_world"	"Weapon_Brownbess.Melee_HitWorld"
+		"special1"		"Weapon_Brownbess.Melee_Miss"
+		"deploy"		"Weapon_Brownbess.Deploy"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+	}
+}

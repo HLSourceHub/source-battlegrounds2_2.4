@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "bg_grantel/bg_forge_textures/abv_rock1"
+	"$surfaceprop" "dirt"
+	"$detail" "bg_grantel/bg_detailtextures/rock"
+	"$detailscale" .6
+}
+

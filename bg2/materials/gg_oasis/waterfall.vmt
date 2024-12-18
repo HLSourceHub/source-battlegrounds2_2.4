@@ -1,0 +1,17 @@
+UnLitGeneric
+{
+	"$basetexture"	"gg_oasis/waterfall"
+	"$translucent"	1
+	"$nocull"	1
+    	"$decal"	1
+        "$surfaceprop" "water"
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 1
+			"texturescrollangle" 270.00
+		}
+	}
+}

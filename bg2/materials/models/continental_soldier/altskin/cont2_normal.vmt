@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/continental_soldier/altskin/cont2_normal"
+	"$nocull" 0 
+}

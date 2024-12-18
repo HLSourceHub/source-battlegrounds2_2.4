@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	"$basetexture" "models/militia/militia_body"	
+	"$bumpmap" "models/militia/militia_body_normal"
+	"$nocull" 1 
+}

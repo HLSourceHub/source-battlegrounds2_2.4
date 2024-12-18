@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/bg2_props/skybox/baked"
+	"$bumpmap" "models/bg2_props/skybox/baked_normal"
+}

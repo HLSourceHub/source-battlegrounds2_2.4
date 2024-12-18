@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/picket_fence"
+	"$surfaceprop" "Wood_Panel"
+}

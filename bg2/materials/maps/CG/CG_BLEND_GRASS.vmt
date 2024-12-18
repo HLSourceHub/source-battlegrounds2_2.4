@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "maps/CG/CG_GRASS"
+   	"$basetexture2" "maps/CG/CG_GRASS_DIRT"
+   	"%tooltexture" "maps/CG/CG_GRASS"
+	
+}

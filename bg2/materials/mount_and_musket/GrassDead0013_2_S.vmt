@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "mount_and_musket/GrassDead0013_2_S"
+	"$surfaceprop" "dirt"
+	"$detail" "overlays/macro01a"
+	"$detailscale" .1
+}

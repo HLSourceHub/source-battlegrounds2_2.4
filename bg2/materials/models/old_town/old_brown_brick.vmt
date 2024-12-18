@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "models\old_town/old_brown_brick"
+	"$translucent" 1
+}

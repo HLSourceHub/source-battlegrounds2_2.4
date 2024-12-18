@@ -1,0 +1,40 @@
+// Fowler
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"Fowler"
+	"viewmodel"			"models/weapons/v_fowler.mdl"
+	"playermodel"			"models/fowler/w_fowler.mdl"
+	"anim_prefix"			"shotgun"
+	"bucket"				"0"
+	"bucket_position"		"4"
+
+	"clip_size"			"1"
+	"default_clip"			"12"
+	"primary_ammo"			"357"
+	"secondary_ammo"		"None"
+
+	"weight"				"0"
+	"item_flags"			"0"
+
+	"ironsights_x"		"-20.0"
+	"ironsights_y"		"-7.8"
+	"ironsights_z"		"6.6"
+	"ironsights_pitch"	"-0.6"
+	"ironsights_yaw"	"0.0"
+	"ironsights_roll"	"0"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_fowler.Single"
+		"reload"		"Weapon_fowler.reload"
+		"deploy"		"Weapon_fowler.Deploy"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+	}
+}

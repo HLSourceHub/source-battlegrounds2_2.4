@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+   	"$basetexture" "maps/fall/fall_ivy"
+	"$basetexture2" "maps/CG/CG_GRASS" 
+	"%tooltexture" "maps/fall/fall_leaves" 
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0" 
+	"$basetexturetransform2" "center .5 .5 scale 1 1 rotate 10 translate 0 0" 
+	"$surfaceprop" "dirt" 
+	"%keywords" "fall" 
+}
+
+

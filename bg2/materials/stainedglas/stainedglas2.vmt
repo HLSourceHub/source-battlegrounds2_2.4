@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "stainedglas/stainedglas2"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.3 .3 .25]"
+	"$surfaceprop" "glass"
+        "$translucent" 1
+}

@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "bg_grantel/bg_plateau/plateau_wood_planks"
+	"$surfaceprop" "Wood_Plank"
+}

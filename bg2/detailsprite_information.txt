@@ -1,0 +1,102 @@
+1. long grass:
+upper left (X,Y): 0,0
+size: 128*128
+
+Model1 in the example detail.vbsp.
+
+2. small tree:
+upper left (X,Y): 144,0
+size: 96*128
+
+Model2 in the example detail.vbsp. Should be used with a 3:4 ratio between width and height of the sprite.
+
+3. green grass 01:
+upper left (X,Y): 256,0
+size: 128*128
+
+Model3 in the example detail.vbsp.
+
+4. green grass 02:
+upper left (X,Y): 400,0 
+size: 112*128
+
+Model4 in the example detail.vbsp. Should be used with a 7:8 ratio between width and height of the sprite.
+
+5. wheat 01:
+upper left (X,Y): 0,144
+size: 80*128
+
+Model5 in the example detail.vbsp. Should be used with a 5:8 ratio between width and height of the sprite.
+
+6. wheat 02:
+upper left (X,Y): 80,144
+size: 80*128
+
+Model6 in the example detail.vbsp. Should be used with a 5:8 ratio between width and height of the sprite.
+
+7. small bush:
+upper left (X,Y): 176,144
+size: 96*128
+
+Model7 in the example detail.vbsp. Should be used with a 3:4 ratio between width and height of the sprite.
+
+8. shrub:
+upper left (X,Y):  288,144
+size: 128*128
+
+Model8 in the example detail.vbsp.
+
+9. yellow flower:
+upper left (X,Y): 432,144
+size: 60*128
+
+Model9 in the example detail.vbsp. Should be used with a 15:32 ratio between width and height of the sprite.
+
+10. yellow grass 01:
+upper left (X,Y): 0,288
+size: 128*128
+
+Model10 in the example detail.vbsp.
+
+11. red grass 01:
+upper left (X,Y): 144,288
+size: 112*128
+
+Model11 in the example detail.vbsp. Should be used with a 7:8 ratio between width and height of the sprite.
+
+12. green grass 03:
+upper left (X,Y): 272,288
+size: 96*128
+
+Model12 in the example detail.vbsp. Should be used with a 3:4 ratio between width and height of the sprite.
+
+13. red flower:
+upper left (X,Y): 372,288
+size: 60*128
+
+Model13 in the example detail.vbsp. Should be used with a 15:32 ratio between width and height of the sprite.
+
+14. white flower:
+upper left (X,Y): 440,288
+size: 60*128
+
+Model14 in the example detail.vbsp. Should be used with a 15:32 ratio between width and height of the sprite.
+
+15. thick yellow grass 01:
+upper left (X,Y): 0,420
+size: 232*92
+
+Model15 in the example detail.vbsp. Should be used with a 58:23 ratio between width and height of the sprite.
+
+16. thick yellow grass 02:
+upper left (X,Y): 232,420
+size: 152*92
+
+Model16 in the example detail.vbsp. Should be used with a 38:23 ratio between width and height of the sprite.
+
+17. thick green grass 01:
+upper left (X,Y): 384,420
+size: 128*92
+
+Model17 in the example detail.vbsp. Should be used with a 32:23 ratio between width and height of the sprite.
+

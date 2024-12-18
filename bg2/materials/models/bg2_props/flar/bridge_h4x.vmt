@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/bg2_props/flar/bridge_diffuse"
+	"$bumpmap" "models/bg2_props/flar/bridge_bump"
+	"$model" 1
+	"$halflambert" 1
+	"$translucent" 1
+	"$nocull" 1
+}

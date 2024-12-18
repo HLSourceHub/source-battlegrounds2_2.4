@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "bg_grantel/town/overlay1"
+    "$translucent" 1
+}

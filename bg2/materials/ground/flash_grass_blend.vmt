@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "ground/grass001"
+	"$baseTexture2" "ground/grass002"
+	"%detailtype" "Peacekeeper"
+	"$bumpmap" "jake/CG_GRASS_NORMAL"
+	"$surfaceprop" "dirt"
+	"%keywords" "dod" 
+}

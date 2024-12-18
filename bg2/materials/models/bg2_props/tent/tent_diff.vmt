@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\tent/tent_diff"
+	"$nocull" 1
+}

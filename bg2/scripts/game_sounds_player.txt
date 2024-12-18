@@ -1,0 +1,2412 @@
+"HL2Player.BurnPain"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"0.5"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+			"wave"	"player/pl_burnpain1.wav"
+			"wave"	"player/pl_burnpain2.wav"
+			"wave"	"player/pl_burnpain3.wav"
+	}
+}
+
+// SHARED player sounds
+
+"BG2Player.Die"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.6"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/death_01.wav"
+		"wave"	"player/death_02.wav"
+		"wave"	"player/death_03.wav"
+		"wave"	"player/death_04.wav"
+		"wave"	"player/death_05.wav"
+		"wave"  "player/death_05.wav"
+		"Wave"	"player/death_06.wav"
+		"wave"	"player/death_07.wav"
+		"wave"	"player/death_08.wav"
+		"wave"	"player/death_09.wav"
+		"wave"	"player/death_10.wav"
+		"wave"  "player/death_11.wav"
+		"wave"  "player/death_12.wav"
+		"wave"  "player/death_13.wav"
+		"wave"  "player/death_14.wav"
+		"wave"  "player/death_15.wav"
+		"wave"  "player/death_16.wav"
+	}
+}
+
+"Player.PlasmaDamage"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.5"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"player/general/flesh_burn.wav"
+}
+
+"Player.DrownStart"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"90,110"
+
+	"wave"	"player/pl_drown1.wav"
+}
+
+"Player.Swim"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.5"
+	"pitch"		"PITCH_NORM"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		"player/footsteps/wade5.wav"
+		"wave"		"player/footsteps/wade6.wav"
+		"wave"		"player/footsteps/wade7.wav"
+		"wave"		"player/footsteps/wade8.wav"
+	}
+}
+
+"Player.FallDamage"
+{
+	"channel"	"CHAN_AUTO"
+	"volume"	"0.75"
+	"pitch"		"90,110"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		"player/pl_fallpain1.wav"
+		"wave"		"player/pl_fallpain3.wav"
+	}
+}
+
+"Player.FallGib"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.75"
+	"pitch"		"90,110"
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"		"physics/body/body_medium_break2.wav"
+	}
+}
+
+"Player.DrownContinue"
+{
+	"channel"	"CHAN_VOICE"
+	"volume"	"1.0"
+	"soundlevel"  "SNDLVL_75dB"
+	"pitch"		"90,110"
+
+	"rndwave"
+	{
+		"wave"	"player/pl_drown1.wav"
+		"wave"	"player/pl_drown2.wav"
+		"wave"	"player/pl_drown3.wav"
+	}
+}
+
+"Player.Wade"
+{
+	"channel"	"CHAN_BODY"
+	"volume"	"0.25"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"rndwave"
+	{
+		"wave"	"player/footsteps/wade5.wav"
+		"wave"	"player/footsteps/wade6.wav"
+		"wave"	"player/footsteps/wade7.wav"
+		"wave"	"player/footsteps/wade8.wav"
+	}
+}
+
+"Player.AmbientUnderWater"
+{
+	"channel"	"CHAN_STATIC"
+	"volume"	"0.22"
+	"soundlevel"  "SNDLVL_75dB"
+
+	"wave"	"ambient/water/underwater.wav"
+}
+
+//Tjoppen
+"British.win"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.9"
+	"soundlevel"	"SNDLVL_65dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		
+		"wave"	"misc/win_british_1.wav"
+		"wave"	"misc/win_british_2.wav"
+		"wave"	"misc/win_british_3.wav"
+		"wave"	"misc/win_british_4.wav"
+	}
+}
+"Americans.win"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.45"
+	"soundlevel"	"SNDLVL_65dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+
+		"wave"  "misc/win_american_1.wav"
+		"wave"  "misc/win_american_2.wav"
+		"wave"  "misc/win_american_3.wav"
+	}
+}
+
+"Flag.capture"
+{
+	"channel"		"CHAN_AUTO"
+	"volume"		"0.8"
+	"soundlevel"		"SNDLVL_100dB"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_NORM"
+
+	"rndwave"
+	{
+		"wave"	"ambience/capture1.wav"
+		"wave"	"ambience/capture2.wav"
+		"wave"	"ambience/capture3.wav"
+		"wave"	"ambience/capture4.wav"
+		"wave"	"ambience/capture5.wav"
+	}
+}
+
+//Pain sounds
+"BG2Player.American.pain_generic"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/american_pain/pain_chest01.wav"
+		"wave"	"player/american_pain/pain_chest02.wav"
+		"wave"	"player/american_pain/pain_chest03.wav"
+	}
+}
+
+"BG2Player.American.pain_head"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/american_pain/pain_head01.wav"
+		"wave"	"player/american_pain/pain_head02.wav"
+	}
+}
+
+"BG2Player.American.pain_chest"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/american_pain/pain_chest01.wav"
+		"wave"	"player/american_pain/pain_chest02.wav"
+		"wave"	"player/american_pain/pain_chest03.wav"
+	}
+}
+
+"BG2Player.American.pain_stomach"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wavE"  "player/american_pain/pain_stomach01.wav"
+		"wave"	"player/american_pain/pain_stomach02.wav"
+		"wave"	"player/american_pain/pain_stomach03.wav"
+	}
+}
+
+"BG2Player.American.pain_arm"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/american_pain/pain_arm01.wav"
+		"wave"  "player/american_pain/pain_arm02.wav"
+		"wave"  "player/american_pain/pain_arm03.wav"
+	}
+}
+
+"BG2Player.American.pain_leg"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.5"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/american_pain/pain_leg01.wav"
+		"wave"  "player/american_pain/pain_leg02.wav"
+		"wave"  "player/american_pain/pain_leg03.wav"
+	}
+}
+
+//british pain sounds
+"BG2Player.British.pain_generic"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.6"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/british_pain/pain_chest01.wav"
+		"wave"	"player/british_pain/pain_chest02.wav"
+		"wave"	"player/british_pain/pain_chest03.wav"
+	}
+}
+
+"BG2Player.British.pain_head"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.6"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/british_pain/pain_head01.wav"
+		"wave"	"player/british_pain/pain_head02.wav"
+	}
+}
+
+"BG2Player.British.pain_chest"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.6"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/british_pain/pain_chest01.wav"
+		"wave"	"player/british_pain/pain_chest02.wav"
+		"wave"	"player/british_pain/pain_chest03.wav"
+	}
+}
+
+"BG2Player.British.pain_stomach"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.6"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/british_pain/pain_stomach01.wav"
+		"wave"	"player/british_pain/pain_stomach02.wav"
+		"wave"	"player/british_pain/pain_stomach03.wav"
+	}
+}
+
+"BG2Player.British.pain_arm"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.6"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/british_pain/pain_arm01.wav"
+		"wave"	"player/british_pain/pain_arm02.wav"
+		"wave"	"player/british_pain/pain_arm03.wav"
+	}
+}
+
+"BG2Player.British.pain_leg"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.6"
+	"pitch"			"PITCH_NORM"
+
+	"soundlevel"	"SNDLVL_70dB"
+
+	"rndwave"
+	{
+		"wave"	"player/british_pain/pain_leg01.wav"
+		"wave"	"player/british_pain/pain_leg02.wav"
+		"wave"	"player/british_pain/pain_leg03.wav"
+	}
+}
+//end pain sounds
+
+"Voicecomms.American.Inf_1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/yes/as_you_wish.mp3"
+		"wave"	"commands/american/infantry/yes/im_on_it.mp3"
+		"wave"	"commands/american/infantry/yes/yes_sir_1.mp3"
+		"wave"  "commands/american/infantry/yes/yes_sir_2.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/no/impossible_1.mp3"
+		"wave"	"commands/american/infantry/no/impossible_2.mp3"
+		"wave"	"commands/american/infantry/no/no_1.mp3"
+		"wave"  "commands/american/infantry/no/no_2.mp3"
+		"wave"  "commands/american/infantry/no/no_way_sir.mp3"
+		"wave"  "commands/american/infantry/no/not_going_to_happen.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/follow/after_me_men.mp3"
+		"wave"	"commands/american/infantry/follow/follow_me.mp3"
+		"wave"	"commands/american/infantry/follow/follow_me_2.mp3"
+		"wave"  "commands/american/infantry/follow/with_me_lets_go.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/behind_us/by_god.mp3"
+		"wave"	"commands/american/infantry/behind_us/coming_from_behind.mp3"
+		"wave"	"commands/american/infantry/behind_us/right_behind_us.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/enemy_spotted/british.wav"
+		"wave"	"commands/american/infantry/enemy_spotted/lobsters.wav"
+		"wave"	"commands/american/infantry/enemy_spotted/redcoats.wav"
+	}
+}
+
+"Voicecomms.American.Inf_6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/area_secure/done_for.mp3"
+		"wave"	"commands/american/infantry/area_secure/no_red_coats.mp3"
+		"wave"	"commands/american/infantry/area_secure/sent_packing.mp3"
+		"wave"  "commands/american/infantry/area_secure/cant_see_anymore.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/flanking_us/being_flanked.mp3"
+		"wave"	"commands/american/infantry/flanking_us/watch_the_flanks.mp3"
+		"wave"  "commands/american/infantry/flanking_us/getting_on_the_flanks.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_8"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/flank_left/flank_left.mp3"
+		"wave"	"commands/american/infantry/flank_left/attack_left.mp3"
+		"wave"	"commands/american/infantry/flank_left/go_after_left.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_9"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"  "commands/american/infantry/flank_right/right_into_dust.mp3"
+		"wave"  "commands/american/infantry/flank_right/right_flank_exposed.mp3"
+		"wave"  "commands/american/infantry/flank_right/flank_right.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/advance/with_me.mp3"
+		"wave"	"commands/american/infantry/advance/white_of_their_eyes.mp3"
+		"wave"	"commands/american/infantry/advance/move_forward.mp3"
+		"wave"  "commands/american/infantry/advance/charge_them.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/retreat/fall_back.mp3"
+		"wave"	"commands/american/infantry/retreat/get_back.mp3"
+		"wave"	"commands/american/infantry/retreat/retreat.mp3"
+		"wave"  "commands/american/infantry/retreat/run_for_your_lives.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/rally_round/dont_desert_me_now.mp3"
+		"wave"	"commands/american/infantry/rally_round/rally_forth.mp3"
+		"wave"	"commands/american/infantry/rally_round/rally_on_me.mp3"
+		"wave"  "commands/american/infantry/rally_round/stand_firm.mp3"
+		"wave"  "commands/american/infantry/rally_round/turn_around_and_fight.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/halt/dont_move.mp3"
+		"wave"	"commands/american/infantry/halt/halt.mp3"
+		"wave"  "commands/american/infantry/halt/stay_right_there.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/take_objective/come_on.wav"
+		"wave"	"commands/american/infantry/take_objective/take_flag.wav"
+		"wave"	"commands/american/infantry/take_objective/this_battle.wav"
+	}
+}
+
+"Voicecomms.American.Inf_15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/make_ready/get_ready_to_fire.mp3"
+		"wave"	"commands/american/infantry/make_ready/make_ready.mp3"
+		"wave"	"commands/american/infantry/make_ready/ready_your_arms.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_16"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/present/pick_your_targets.mp3"
+		"wave"	"commands/american/infantry/present/present.mp3"
+		"wave"	"commands/american/infantry/present/take_aim.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_17"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/fire/bloody_brits.mp3"
+		"wave"	"commands/american/infantry/fire/fire_i_say.mp3"
+		"wave"	"commands/american/infantry/fire/open_fire.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_18"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/cease_fire/cease_fire.mp3"
+		"wave"	"commands/american/infantry/cease_fire/dont_waste_your_shots.mp3"
+		"wave"	"commands/american/infantry/cease_fire/hold_your_fire.mp3"
+	}
+}
+
+"Voicecomms.American.Inf_19"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/battlecry/freedom.mp3"
+		"wave"	"commands/american/infantry/battlecry/for_liberty.mp3"
+		"wave"	"commands/american/infantry/battlecry/give_us_liberty.mp3"
+		"wave"  "commands/american/infantry/battlecry/homes_families.mp3"
+		"wave"  "commands/american/infantry/battlecry/kill_the_invaders.mp3"
+	}
+}
+
+"Voicecomms.American.off_1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/yes/aye.wav"
+		"wave"	"commands/american/officer/yes/will_do.wav"
+		"wave"	"commands/american/officer/yes/yes.wav"
+	}
+}
+
+"Voicecomms.American.off_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/no/cant.wav"
+		"wave"	"commands/american/officer/no/no_way.wav"
+		"wave"	"commands/american/officer/no/not.wav"
+	}
+}
+
+"Voicecomms.American.off_3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/follow/come_on.wav"
+		"wave"	"commands/american/officer/follow/follow.wav"
+		"wave"	"commands/american/officer/follow/form_up.wav"
+	}
+}
+
+"Voicecomms.American.off_4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/behind_us/behind.wav"
+		"wave"	"commands/american/officer/behind_us/how_the_hell.wav"
+		"wave"	"commands/american/officer/behind_us/lobsters.wav"
+	}
+}
+
+"Voicecomms.American.off_5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/enemy_spotted/british.wav"
+		"wave"	"commands/american/officer/enemy_spotted/lobsters.wav"
+		"wave"	"commands/american/officer/enemy_spotted/redcoats.wav"
+	}
+}
+
+"Voicecomms.American.off_6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/area_secure/beat.wav"
+		"wave"	"commands/american/officer/area_secure/good.wav"
+		"wave"	"commands/american/officer/area_secure/last.wav"
+	}
+}
+
+"Voicecomms.American.off_7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/flanking_us/british.wav"
+		"wave"	"commands/american/officer/flanking_us/enemy.wav"
+	}
+}
+
+"Voicecomms.American.off_8"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/flank_left/left.wav"
+		"wave"	"commands/american/officer/flank_left/push.wav"
+		"wave"	"commands/american/officer/flank_left/turn.wav"
+	}
+}
+
+"Voicecomms.American.off_9"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/flank_right/come_on.wav"
+		"wave"	"commands/american/officer/flank_right/head.wav"
+		"wave"	"commands/american/officer/flank_right/push_right.wav"
+	}
+}
+
+"Voicecomms.American.off_10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/advance/charge.wav"
+		"wave"	"commands/american/officer/advance/forward.wav"
+		"wave"	"commands/american/officer/advance/march.wav"
+	}
+}
+
+"Voicecomms.American.off_11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/retreat/fall_back2.wav"
+		"wave"	"commands/american/officer/retreat/fall_back.wav"
+		"wave"	"commands/american/officer/retreat/retreat.wav"
+	}
+}
+
+"Voicecomms.American.off_12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/rally_round/come_on.wav"
+		"wave"	"commands/american/officer/rally_round/rally_me.wav"
+		"wave"	"commands/american/officer/rally_round/rally_round.wav"
+	}
+}
+
+"Voicecomms.American.off_13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/halt/halt.wav"
+		"wave"	"commands/american/officer/halt/stop.wav"
+	}
+}
+
+"Voicecomms.American.off_14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/take_objective/come_on.wav"
+		"wave"	"commands/american/officer/take_objective/take_flag.wav"
+		"wave"	"commands/american/officer/take_objective/this_battle.wav"
+	}
+}
+
+"Voicecomms.American.off_15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/make_ready/make.wav"
+		"wave"	"commands/american/officer/make_ready/ready2.wav"
+		"wave"	"commands/american/officer/make_ready/ready.wav"
+	}
+}
+
+"Voicecomms.American.off_16"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/present/take.wav"
+		"wave"	"commands/american/officer/present/take_aim.wav"
+		"wave"	"commands/american/officer/present/target.wav"
+	}
+}
+
+"Voicecomms.American.off_17"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/fire/fire1.wav"
+		"wave"	"commands/american/officer/fire/fire2.wav"
+		"wave"  "commands/american/officer/fire/open_fire.wav"
+	}
+}
+
+"Voicecomms.American.off_18"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/cease_fire/cease_fire.wav"
+		"wave"	"commands/american/officer/cease_fire/enough.wav"
+		"wave"	"commands/american/officer/cease_fire/hold.wav"
+	}
+}
+
+"Voicecomms.American.off_19"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.38"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/officer/freedom/for_homes.wav"
+		"wave"	"commands/american/officer/freedom/freedom.wav"
+		"wave"	"commands/american/officer/freedom/washington.wav"
+		"wave"  "commands/american/officer/freedom/for_freedom.wav"
+	}
+}
+
+"Voicecomms.American.rif_1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/yes/as_you_wish.mp3"
+		"wave"	"commands/american/infantry/yes/im_on_it.mp3"
+		"wave"	"commands/american/infantry/yes/yes_sir_1.mp3"
+		"wave"  "commands/american/infantry/yes/yes_sir_2.mp3"
+	}
+}
+
+"Voicecomms.American.rif_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/no/impossible_1.mp3"
+		"wave"	"commands/american/infantry/no/impossible_2.mp3"
+		"wave"	"commands/american/infantry/no/no_1.mp3"
+		"wave"  "commands/american/infantry/no/no_2.mp3"
+		"wave"  "commands/american/infantry/no/no_way_sir.mp3"
+		"wave"  "commands/american/infantry/no/not_going_to_happen.mp3"
+	}
+}
+
+"Voicecomms.American.rif_3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/follow/after_me_men.mp3"
+		"wave"	"commands/american/infantry/follow/follow_me.mp3"
+		"wave"	"commands/american/infantry/follow/follow_me_2.mp3"
+		"wave"  "commands/american/infantry/follow/with_me_lets_go.mp3"
+	}
+}
+
+"Voicecomms.American.rif_4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/behind_us/by_god.mp3"
+		"wave"	"commands/american/infantry/behind_us/coming_from_behind.mp3"
+		"wave"	"commands/american/infantry/behind_us/right_behind_us.mp3"
+	}
+}
+
+"Voicecomms.American.rif_5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/enemy_spotted/british.wav"
+		"wave"	"commands/american/infantry/enemy_spotted/lobsters.wav"
+		"wave"	"commands/american/infantry/enemy_spotted/redcoats.wav"
+	}
+}
+
+"Voicecomms.American.rif_6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/area_secure/done_for.mp3"
+		"wave"	"commands/american/infantry/area_secure/no_red_coats.mp3"
+		"wave"	"commands/american/infantry/area_secure/sent_packing.mp3"
+		"wave"  "commands/american/infantry/area_secure/cant_see_anymore.mp3"
+	}
+}
+
+"Voicecomms.American.rif_7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/flanking_us/being_flanked.mp3"
+		"wave"	"commands/american/infantry/flanking_us/watch_the_flanks.mp3"
+		"wave"  "commands/american/infantry/flanking_us/getting_on_the_flanks.mp3"
+	}
+}
+
+"Voicecomms.American.rif_8"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/flank_left/flank_left.mp3"
+		"wave"	"commands/american/infantry/flank_left/attack_left.mp3"
+		"wave"	"commands/american/infantry/flank_left/go_after_left.mp3"
+	}
+}
+
+"Voicecomms.American.rif_9"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"  "commands/american/infantry/flank_right/right_into_dust.mp3"
+		"wave"  "commands/american/infantry/flank_right/right_flank_exposed.mp3"
+		"wave"  "commands/american/infantry/flank_right/flank_right.mp3"
+	}
+}
+
+"Voicecomms.American.rif_10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/advance/with_me.mp3"
+		"wave"	"commands/american/infantry/advance/white_of_their_eyes.mp3"
+		"wave"	"commands/american/infantry/advance/move_forward.mp3"
+		"wave"  "commands/american/infantry/advance/charge_them.mp3"
+	}
+}
+
+"Voicecomms.American.rif_11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/retreat/fall_back.mp3"
+		"wave"	"commands/american/infantry/retreat/get_back.mp3"
+		"wave"	"commands/american/infantry/retreat/retreat.mp3"
+		"wave"  "commands/american/infantry/retreat/run_for_your_lives.mp3"
+	}
+}
+
+"Voicecomms.American.rif_12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/rally_round/dont_desert_me_now.mp3"
+		"wave"	"commands/american/infantry/rally_round/rally_forth.mp3"
+		"wave"	"commands/american/infantry/rally_round/rally_on_me.mp3"
+		"wave"  "commands/american/infantry/rally_round/stand_firm.mp3"
+		"wave"  "commands/american/infantry/rally_round/turn_around_and_fight.mp3"
+	}
+}
+
+"Voicecomms.American.rif_13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/halt/dont_move.mp3"
+		"wave"	"commands/american/infantry/halt/halt.mp3"
+		"wave"  "commands/american/infantry/halt/stay_right_there.mp3"
+	}
+}
+
+"Voicecomms.American.rif_14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/take_objective/come_on.wav"
+		"wave"	"commands/american/infantry/take_objective/take_flag.wav"
+		"wave"	"commands/american/infantry/take_objective/this_battle.wav"
+	}
+}
+
+"Voicecomms.American.rif_15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/make_ready/get_ready_to_fire.mp3"
+		"wave"	"commands/american/infantry/make_ready/make_ready.mp3"
+		"wave"	"commands/american/infantry/make_ready/ready_your_arms.mp3"
+	}
+}
+
+"Voicecomms.American.rif_16"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/present/pick_your_targets.mp3"
+		"wave"	"commands/american/infantry/present/present.mp3"
+		"wave"	"commands/american/infantry/present/take_aim.mp3"
+	}
+}
+
+"Voicecomms.American.rif_17"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/fire/bloody_brits.mp3"
+		"wave"	"commands/american/infantry/fire/fire_i_say.mp3"
+		"wave"	"commands/american/infantry/fire/open_fire.mp3"
+	}
+}
+
+"Voicecomms.American.rif_18"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/cease_fire/cease_fire.mp3"
+		"wave"	"commands/american/infantry/cease_fire/dont_waste_your_shots.mp3"
+		"wave"	"commands/american/infantry/cease_fire/hold_your_fire.mp3"
+	}
+}
+
+"Voicecomms.American.rif_19"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/american/infantry/battlecry/freedom.mp3"
+		"wave"	"commands/american/infantry/battlecry/for_liberty.mp3"
+		"wave"	"commands/american/infantry/battlecry/give_us_liberty.mp3"
+		"wave"  "commands/american/infantry/battlecry/homes_families.mp3"
+		"wave"  "commands/american/infantry/battlecry/kill_the_invaders.mp3"
+	}
+}
+
+"Voicecomms.British.Inf_1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/yes/aye.wav"
+		"wave"	"commands/british/infantry/yes/right.wav"
+		"wave"	"commands/british/infantry/yes/yes_sir.wav"
+	}
+}
+
+"Voicecomms.British.Inf_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/no/no_sir.wav"
+		"wave"	"commands/british/infantry/no/no_way.wav"
+		"wave"  "commands/british/infantry/no/pardon.wav"
+	}
+}
+
+"Voicecomms.British.Inf_3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/follow/quick_lads.wav"
+		"wave"  "commands/british/infantry/follow/this_way.wav"
+		"wave"  "commands/british/infantry/follow/with_me.wav"
+	}
+}
+
+"Voicecomms.British.Inf_4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/behind_us/by_god.wav"
+		"wave"  "commands/british/infantry/behind_us/watch.wav"
+		"wave"  "commands/british/infantry/behind_us/watch_out.wav"
+	}
+}
+
+"Voicecomms.British.Inf_5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/enemy_spotted/enemy_in_sight.wav"
+		"wave"  "commands/british/infantry/enemy_spotted/enemy_joined.wav"
+		"wave"  "commands/british/infantry/enemy_spotted/here_they_come.wav"
+	}
+}
+
+"Voicecomms.British.Inf_6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/area_secure/clear.wav"
+		"wave"  "commands/british/infantry/area_secure/last.wav"
+		"wave"  "commands/british/infantry/area_secure/rebel.wav"
+	}
+}
+
+"Voicecomms.British.Inf_7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/flanking_us/enemy_on.wav"
+		"wave"  "commands/british/infantry/flanking_us/flanking_us.wav"
+		"wave"  "commands/british/infantry/flanking_us/watch_flanks.wav"
+	}
+}
+
+"Voicecomms.British.Inf_8"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/flank_left/flank_left.wav"
+		"wave"  "commands/british/infantry/flank_left/left_left.wav"	
+		"wave"  "commands/british/infantry/flank_left/turn_right.wav"
+	}
+}
+
+"Voicecomms.British.Inf_9"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/flank_right/flank_right.wav"
+		"wave"  "commands/british/infantry/flank_right/to_right.wav"	
+		"wave"  "commands/british/infantry/flank_right/turn_left.wav"
+	}
+}
+
+
+"Voicecomms.British.Inf_10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/advance/charge_improved.wav"
+		"wave"  "commands/british/infantry/advance/move.wav"
+	}
+}
+
+"Voicecomms.British.Inf_11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/retreat/fall_back.wav"
+		"wave"  "commands/british/infantry/retreat/retreat.wav"
+		"wave"  "commands/british/infantry/retreat/run.wav"
+	}
+}
+
+"Voicecomms.British.Inf_12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/rally_round/rally_round.wav"
+		"wave"  "commands/british/infantry/rally_round/round_me.wav"
+	}
+}
+
+"Voicecomms.British.Inf_13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/halt/halt.wav"
+		"wave"  "commands/british/infantry/halt/not_another_step.wav"
+		"wave"  "commands/british/infantry/halt/stay.wav"
+	}
+}
+
+"Voicecomms.British.Inf_14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/take_objective/protect_flag.wav"
+		"wave"  "commands/british/infantry/take_objective/rag.wav"
+		"wave"  "commands/british/infantry/take_objective/you_know.wav"
+	}
+}
+
+"Voicecomms.British.Inf_15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/make_ready/make_ready.wav"
+		"wave"  "commands/british/infantry/make_ready/make_ready2.wav"
+		"wave"  "commands/british/infantry/make_ready/make_ready3.wav"
+	}
+}
+
+"Voicecomms.British.Inf_16"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/present/pick_target.wav"
+		"wave"	"commands/british/infantry/present/present.wav"
+		"wave"  "commands/british/infantry/present/present2.wav"
+	}
+}
+
+"Voicecomms.British.Inf_17"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/infantry/fire/fire.wav"
+		"wave"  "commands/british/infantry/fire/open_fire.wav"
+	}
+}
+
+"Voicecomms.British.Inf_18"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"  "commands/british/infantry/cease_fire/cease_Fire.wav"
+		"wave"  "commands/british/infantry/cease_fire/stop_firing.wav"
+		"wave"  "commands/british/infantry/cease_fire/waste_lead.wav"
+	}
+}
+
+"Voicecomms.British.Inf_19"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"  "commands/british/infantry/king_and_country/honour.wav"
+		"wave"  "commands/british/infantry/king_and_country/king.wav"
+		"wave"  "commands/british/infantry/king_and_country/king_george.wav"
+	}
+}
+
+"Voicecomms.British.off_1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/yes/agree.wav"
+		"wave"	"commands/british/officer/yes/right.wav"
+		"wave"	"commands/british/officer/yes/yes.wav"
+	}
+}
+
+"Voicecomms.British.off_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/no/mad.wav"
+		"wave"	"commands/british/officer/no/no.wav"
+		"wave"  "commands/british/officer/no/no2.wav"
+	}
+}
+
+"Voicecomms.British.off_3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/follow/fall_in.wav"
+		"wave"  "commands/british/officer/follow/follow.wav"
+		"wave"  "commands/british/officer/follow/with_me.wav"
+	}
+}
+
+"Voicecomms.British.off_4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/behind_us/about_face.wav"
+		"wave"  "commands/british/officer/behind_us/behind_us.wav"
+		"wave"  "commands/british/officer/behind_us/in_rear.wav"
+	}
+}
+
+"Voicecomms.British.off_5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/enemy_spotted/deigned.wav"
+		"wave"  "commands/british/officer/enemy_spotted/located.wav"
+		"wave"  "commands/british/officer/enemy_spotted/sighted.wav"
+	}
+}
+
+"Voicecomms.British.off_6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/area_secure/well_done.wav"
+		"wave"  "commands/british/officer/area_secure/secure.wav"
+		"wave"  "commands/british/officer/area_secure/rebel.wav"
+	}
+}
+
+"Voicecomms.British.off_7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/flanking_us/attempt_flank.wav"
+		"wave"  "commands/british/officer/flanking_us/trying_turn.wav"
+		"wave"  "commands/british/officer/flanking_us/watch_flanks.wav"
+	}
+}
+
+"Voicecomms.British.off_8"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/flank_left/attack_left.wav"
+		"wave"  "commands/british/officer/flank_left/push_left.wav"	
+		"wave"  "commands/british/officer/flank_left/to_left.wav"
+	}
+}
+
+"Voicecomms.British.off_9"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/flank_right/attack_right.wav"
+		"wave"  "commands/british/officer/flank_right/push_right.wav"	
+		"wave"  "commands/british/officer/flank_right/make_attack.wav"
+	}
+}
+
+
+"Voicecomms.British.off_10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/advance/bayonet.wav"
+		"wave"  "commands/british/officer/advance/charge.wav"
+		"wave"  "commands/british/officer/advance/cold_steel.wav"
+	}
+}
+
+"Voicecomms.British.off_11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/retreat/fall_back.wav"
+		"wave"  "commands/british/officer/retreat/retreat.wav"
+		"wave"  "commands/british/officer/retreat/facing.wav"
+	}
+}
+
+"Voicecomms.British.off_12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/rally_round/rally_round.wav"
+		"wave"  "commands/british/officer/rally_round/to_me.wav"
+	}
+}
+
+"Voicecomms.British.off_13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/halt/halt.wav"
+		"wave"  "commands/british/officer/halt/section.wav"
+		"wave"  "commands/british/officer/halt/stay.wav"
+	}
+}
+
+"Voicecomms.British.off_14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/take_objective/find_courage.wav"
+		"wave"  "commands/british/officer/take_objective/look.wav"
+		"wave"  "commands/british/officer/take_objective/take_flag.wav"
+		"wave"  "commands/british/officer/take_objective/tear_down.wav"
+	}
+}
+
+"Voicecomms.British.off_15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/make_ready/make_ready.wav"
+		"wave"  "commands/british/officer/make_ready/ready.wav"
+		"wave"  "commands/british/officer/make_ready/ready_arms.wav"
+	}
+}
+
+"Voicecomms.British.off_16"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/present/present1.wav"
+		"wave"	"commands/british/officer/present/present2.wav"
+		"wave"  "commands/british/officer/present/take_aim.wav"
+	}
+}
+
+"Voicecomms.British.off_17"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/officer/fire/fire.wav"
+		"wave"	"commands/british/officer/fire/fire_short.wav"
+		"wave"  "commands/british/officer/fire/open_fire.wav"
+	}
+}
+
+"Voicecomms.British.off_18"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"  "commands/british/officer/cease_fire/cease_Fire.wav"
+		"wave"  "commands/british/officer/cease_fire/you_men.wav"
+		"wave"  "commands/british/officer/cease_fire/lead.wav"
+	}
+}
+
+"Voicecomms.British.off_19"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"  "commands/british/officer/king_country/earn_pay.wav"
+		"wave"  "commands/british/officer/king_country/king.wav"
+		"wave"  "commands/british/officer/king_country/king_country.wav"
+	}
+}
+
+
+
+"Voicecomms.British.rif_1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/yes/aye.wav"
+		"wave"	"commands/british/jaeger/yes/right.wav"
+		"wave"	"commands/british/jaeger/yes/yes_sir.wav"
+	}
+}
+
+"Voicecomms.British.rif_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/no/no_sir.wav"
+		"wave"	"commands/british/jaeger/no/no_way.wav"
+		"wave"  "commands/british/jaeger/no/pardon.wav"
+	}
+}
+
+"Voicecomms.British.rif_3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/follow/quick_lads.wav"
+		"wave"  "commands/british/jaeger/follow/this_way.wav"
+		"wave"  "commands/british/jaeger/follow/with_me.wav"
+	}
+}
+
+"Voicecomms.British.rif_4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/behind_us/by_god.wav"
+		"wave"  "commands/british/jaeger/behind_us/watch.wav"
+		"wave"  "commands/british/jaeger/behind_us/watch_out.wav"
+	}
+}
+
+"Voicecomms.British.rif_5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/enemy_spotted/enemy_in_sight.wav"
+		"wave"  "commands/british/jaeger/enemy_spotted/enemy_joined.wav"
+		"wave"  "commands/british/jaeger/enemy_spotted/here_they_come.wav"
+	}
+}
+
+"Voicecomms.British.rif_6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/area_secure/clear.wav"
+		"wave"  "commands/british/jaeger/area_secure/last.wav"
+		"wave"  "commands/british/jaeger/area_secure/rebel.wav"
+	}
+}
+
+"Voicecomms.British.rif_7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/flanking_us/enemy_on.wav"
+		"wave"  "commands/british/jaeger/flanking_us/flanking_us.wav"
+		"wave"  "commands/british/jaeger/flanking_us/watch_flanks.wav"
+	}
+}
+
+"Voicecomms.British.rif_8"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/flank_left/flank_left.wav"
+		"wave"  "commands/british/jaeger/flank_left/left_left.wav"	
+		"wave"  "commands/british/jaeger/flank_left/turn_right.wav"
+	}
+}
+
+"Voicecomms.British.rif_9"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/flank_right/flank_right.wav"
+		"wave"  "commands/british/jaeger/flank_right/to_right.wav"	
+		"wave"  "commands/british/jaeger/flank_right/turn_left.wav"
+	}
+}
+
+
+"Voicecomms.British.rif_10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/advance/charge_improved.wav"
+		"wave"  "commands/british/jaeger/advance/move.wav"
+	}
+}
+
+"Voicecomms.British.rif_11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/retreat/fall_back.wav"
+		"wave"  "commands/british/jaeger/retreat/retreat.wav"
+		"wave"  "commands/british/jaeger/retreat/run.wav"
+	}
+}
+
+"Voicecomms.British.rif_12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/rally_round/rally_round.wav"
+		"wave"  "commands/british/jaeger/rally_round/round_me.wav"
+	}
+}
+
+"Voicecomms.British.rif_13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/halt/halt.wav"
+		"wave"  "commands/british/jaeger/halt/not_another_step.wav"
+		"wave"  "commands/british/jaeger/halt/stay.wav"
+	}
+}
+
+"Voicecomms.British.rif_14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/take_objective/protect_flag.wav"
+		"wave"  "commands/british/jaeger/take_objective/rag.wav"
+		"wave"  "commands/british/jaeger/take_objective/you_know.wav"
+	}
+}
+
+"Voicecomms.British.rif_15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/make_ready/make_ready.wav"
+		"wave"  "commands/british/jaeger/make_ready/make_ready2.wav"
+		"wave"  "commands/british/jaeger/make_ready/make_ready3.wav"
+	}
+}
+
+"Voicecomms.British.rif_16"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/present/present.wav"
+		"wave"	"commands/british/jaeger/present/present2.wav"
+		"wave"  "commands/british/jaeger/present/pick_target.wav"
+	}
+}
+
+"Voicecomms.British.rif_17"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/jaeger/fire/fire.wav"
+		"wave"  "commands/british/jaeger/fire/open_fire.wav"
+	}
+}
+
+"Voicecomms.British.rif_18"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"  "commands/british/jaeger/cease_fire/cease_Fire.wav"
+		"wave"  "commands/british/jaeger/cease_fire/stop_firing.wav"
+		"wave"  "commands/british/jaeger/cease_fire/waste_lead.wav"
+	}
+}
+
+"Voicecomms.British.rif_19"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.35"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"  "commands/british/jaeger/king_and_country/honour.wav"
+		"wave"  "commands/british/jaeger/king_and_country/king.wav"
+		"wave"  "commands/british/jaeger/king_and_country/king_george.wav"
+	}
+}
+
+
+"Voicecomms.British.Ski_1"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/yes/that_is_so.mp3"
+		"wave"	"commands/british/native/yes/yes.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_2"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/no/cannot_be_done.mp3"
+		"wave"	"commands/british/native/no/no.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_3"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/british/native/follow/this_way.mp3"
+		"wave"	"commands/british/native/follow/follow_me.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_4"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/british/native/behind_us/behind_us.mp3"
+		"wave"	"commands/british/native/behind_us/enemy_is_behind.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_5"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/british/native/enemy_spotted/enemy_ahead.mp3"
+		"wave"	"commands/british/native/enemy_spotted/enemy_spotted.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_6"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+	"rndwave"
+	{
+		"wave"	"commands/british/native/area_secure/no_enemy.mp3"
+		"wave"	"commands/british/native/area_secure/area_clear.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_7"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/flanking_us/blue_coats_flanks.mp3"
+		"wave"	"commands/british/native/flanking_us/flanking_us.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_8"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/flank_left/flank_left.mp3"
+		"wave"	"commands/british/native/flank_left/enemy_left.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_9"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"  "commands/british/native/flank_right/flank_right.mp3"
+		"wave"  "commands/british/native/flank_right/enemy_right.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_10"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/advance/advance.mp3"
+		"wave"	"commands/british/native/advance/go_forward.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_11"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/retreat/fall_back.mp3"
+		"wave"	"commands/british/native/retreat/run_to_hills.mp3"
+		"wave"	"commands/british/native/retreat/retreat.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_12"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/rally_round/rally_together.mp3"
+		"wave"	"commands/british/native/rally_round/stay_together.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_13"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/halt/stop_here.mp3"
+		"wave"	"commands/british/native/halt/halt.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_14"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/take_objective/take_this_point.mp3"
+		"wave"	"commands/british/native/take_objective/take_objective.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_15"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/make_ready/prepare_to_fire.mp3"
+		"wave"	"commands/british/native/make_ready/make_ready.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_16"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/present/choose_target.mp3"
+		"wave"	"commands/british/native/present/take_aim.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_17"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/fire/fire.mp3"
+		"wave"	"commands/british/native/fire/open_fire.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_18"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/cease_fire/cease_fire.mp3"
+		"wave"	"commands/british/native/cease_fire/ceasefire_braves.mp3"
+	}
+}
+
+"Voicecomms.British.Ski_19"
+{
+	"channel"		"CHAN_VOICE"
+	"volume"		"0.75"
+	"soundlevel"	"SNDLVL_95dB"
+	"pitch"		"PITCH_NORM"
+
+	"rndwave"
+	{
+		"wave"	"commands/british/native/battlecry/battlecry.mp3"
+		"wave"	"commands/british/native/battlecry/whoop.mp3"
+	}
+}
+
+//BG2 - Tjoppen - other hud selection sounds
+"BG2Player.WeaponSelected"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.30"
+	"soundlevel"  "SNDLVL_55dB"
+
+	"wave"	"ui/buttonclickrelease.wav"
+}
+
+"BG2Player.WeaponSelectionMoveSlot"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.30"
+	"soundlevel"  "SNDLVL_55dB"
+
+	"wave"	"ui/buttonrollover.wav"
+}
+
+"BG2Player.DenyWeaponSelection"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.30"
+	"soundlevel"  "SNDLVL_55dB"
+
+	"wave"	"ui/wpn_denyselect.wav"
+}
+
+"BG2Player.WeaponSelectionClose"
+{
+	"channel"	"CHAN_ITEM"
+	"volume"	"0.3"
+	"soundlevel"  "SNDLVL_55dB"
+
+	"wave"	"ui/wpn_hudoff.wav"
+}

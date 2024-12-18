@@ -1,0 +1,7 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "various/grassfloor01"
+	"$surfaceprop" "dirt"
+	"$bumpmap" "various/grassfloor01_normal"
+	"%keywords" "cstrike"
+}

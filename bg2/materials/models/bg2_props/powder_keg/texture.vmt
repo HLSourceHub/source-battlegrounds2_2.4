@@ -1,0 +1,9 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\powder_keg\texture"
+	"$bumpmap" "models\bg2_props\powder_keg\texture_normal"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.5 .5 .5]"
+	"$envmapcontrast" 0.5
+	"$normalmapalphaenvmapmask" 1 
+}

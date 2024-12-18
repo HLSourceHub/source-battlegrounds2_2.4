@@ -1,0 +1,46 @@
+// Crowbar
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"	"Brown Bess"
+	"viewmodel"			"models/weapons/v_brownbess.mdl"
+	"playermodel"			"models/brownbess/w_brownbess.mdl"
+	"anim_prefix"			"shotgun"
+	"bucket"				"0"
+	"bucket_position"		"4"
+
+	"clip_size"			"1"
+	"default_clip"			"12"
+	"primary_ammo"			"357"
+	"secondary_ammo"		"None"
+
+	"weight"				"0"
+	"item_flags"			"0"
+
+	"ironsights_x"		"-17.25"
+	"ironsights_y"		"-7.8"
+	"ironsights_z"		"6.7"
+	"ironsights_pitch"	"-0.3"
+	"ironsights_yaw"	"0"
+	"ironsights_roll"	"0"
+
+	"damage"		"10"		//don't care, it's in the code
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+		"single_shot"		"Weapon_Brownbess.Single"
+		"reload"		"Weapon_Brownbess.Reload"
+		"melee_hit"		"Weapon_Brownbess.Melee_Missnot"
+		"melee_hit_world"	"Weapon_Brownbess.Melee_HitWorld"
+		"special1"		"Weapon_Brownbess.Melee_Miss"
+		"deploy"		"Weapon_Brownbess.Deploy"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+	}
+
+}

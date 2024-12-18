@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\window_green"
+                "$bumpmap"	"models\bg2_props\window_normal"
+                "$model" 1
+	"$normalmapalphaenvmapmask"	"1"
+}                

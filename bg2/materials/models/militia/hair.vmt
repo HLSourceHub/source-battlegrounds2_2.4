@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/militia/hair"
+	
+	"$nocull" 1 
+	 
+	"$alphatest" 1
+		
+	"$translucent" 1
+	
+}

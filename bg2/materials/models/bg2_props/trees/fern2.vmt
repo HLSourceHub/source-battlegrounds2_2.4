@@ -1,0 +1,8 @@
+UnlitGeneric
+{
+	"$basetexture"	"models/bg2_props/trees/fern2"
+	"$translucent" 1
+ 	"$alphatest" 1
+	"$nocull" 1
+	"$model" 1
+}

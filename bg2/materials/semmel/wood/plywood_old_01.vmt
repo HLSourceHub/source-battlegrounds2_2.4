@@ -1,0 +1,8 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "semmel/wood/plywood_old_01"
+	"$surfaceprop" "wood"
+//	"$bumpmap" "semmel/wood/plywood_old_01"
+	"$reflectivity" "[0.75 0.75 0.75]"
+	"%keywords" "semmel" 
+}

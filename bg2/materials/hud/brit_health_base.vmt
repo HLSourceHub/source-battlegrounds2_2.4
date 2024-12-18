@@ -1,0 +1,5 @@
+"Unlitgeneric"
+{
+	"$baseTexture" "hud/brit_health_base"
+	"$translucent" 1
+}

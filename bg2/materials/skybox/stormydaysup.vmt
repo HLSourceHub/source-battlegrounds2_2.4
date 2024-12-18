@@ -1,0 +1,6 @@
+"unlitgeneric"
+{
+	"$basetexture" "skybox/stormydaysup"
+	"$nofog" 1
+	"$ignorez" 1
+}

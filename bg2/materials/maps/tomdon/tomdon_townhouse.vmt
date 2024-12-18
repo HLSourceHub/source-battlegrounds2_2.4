@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+    	"$basetexture" "maps/tomdon/tomdon_townhouse"
+        "$surfaceprop" "brick"
+	"$basealphaenvmapmask" 1
+}

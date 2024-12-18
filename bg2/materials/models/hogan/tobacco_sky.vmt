@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\hogan\tobacco_sky"
+	"$alphatest" "1"
+}

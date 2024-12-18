@@ -1,0 +1,10 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/american_officer/officer_head"
+	"$bumpmap" "models/american_officer/officer_head_normal"
+"$phong" "1"
+"$phongexponent" 5
+"$phongboost" "5"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+}

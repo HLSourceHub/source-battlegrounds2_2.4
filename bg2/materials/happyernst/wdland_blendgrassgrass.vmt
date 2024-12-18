@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "happyernst/e_ground1"
+	"$basetexture2" "maps/tomdon/tomdon_grass_dark"
+	"$surfaceprop" "dirt"
+	"$detail" "overlays/macro01a"
+	"$detailscale" .1
+}

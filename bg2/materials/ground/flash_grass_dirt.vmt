@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "ground/grass001"
+	"$baseTexture2" "ground/dirt001"
+	"%detailtype" "jakedetail1"
+	"$bumpmap" "jake/CG_GRASS_NORMAL"
+	"$surfaceprop" "dirt"
+	"%keywords" "dod" 
+$blendmodulatetexture "ground/concordgrassblend"
+
+}
+
+//PK STOP CHANGING THE DETAIL TYPE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+//CREATE A NEW .VMT IF YOU WANT A NEW DETAIL TYPE!!!!!!!!

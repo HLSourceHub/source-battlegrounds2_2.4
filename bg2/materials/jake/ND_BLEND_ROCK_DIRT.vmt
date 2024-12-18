@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "maps/CG/CG_ROCK"
+   	"$basetexture2" "nature/dirtfloor003a"
+   	"%tooltexture" "jake/CG_GRASS"
+	"$bumpmap" "maps/CG/CG_ROCK_bump"
+}

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/bg2_props/rock/rock_dif"
+	"$bumpmap"	"models/bg2_props/rock/rock_normal"
+}

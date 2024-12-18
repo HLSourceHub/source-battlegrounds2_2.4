@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/snowcustom"
+	"$basetexture2" "nature/frozenground01"
+	"$surfaceprop" "Snow"
+	"$surfaceprop2" "Grass"
+	"$blendmodulatetexture"	"ground/quebecblendtextur"
+}

@@ -1,0 +1,6 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "happyernst/e_ground1"
+	"$basetexture2" "nature/grassfloor003a"
+	"$surfaceprop" "dirt"
+}

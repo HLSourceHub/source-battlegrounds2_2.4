@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/jager/jag_head"
+	"$nocull" 0
+}

@@ -1,0 +1,41 @@
+// Crowbar
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"			"Revolutionnaire"
+	"viewmodel"			"models/weapons/v_revolutionnaire.mdl"
+	"playermodel"			"models/revolutionnaire/w_revolutionnaire.mdl"
+	"anim_prefix"			"shotgun"
+	"bucket"				"0"
+	"bucket_position"		"3"
+
+	"clip_size"			"1"
+	"default_clip"			"12"
+	"primary_ammo"			"357"
+	"secondary_ammo"		"None"
+
+	"weight"				"0"
+	"item_flags"			"0"
+
+	"ironsights_x"		"-16.2"
+	"ironsights_y"		"-7.90"
+	"ironsights_z"		"6.6"
+	"ironsights_pitch"	"-0.5"
+	"ironsights_yaw"	"0"
+	"ironsights_roll"	"0"
+
+	"damage"		"10"		//don't care, it's in the code
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		"single_shot"		"Weapon_Charleville.Single"
+		"reload"		"Weapon_Charleville.Reload"
+		"melee_hit"		"Weapon_Brownbess.Melee_Missnot"
+		"melee_hit_world"	"Weapon_Charleville.Melee_HitWorld"
+		"special1"		"Weapon_Charleville.Melee_Miss"
+		"deploy"		"Weapon_Charleville.Deploy"
+	}
+}

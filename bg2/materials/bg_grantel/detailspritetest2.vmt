@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+    	"$basetexture" "maps\tomdon\tomdon_grass"
+	"$surfaceprop" "grass"
+	"%detailtype" "test2"
+}
+

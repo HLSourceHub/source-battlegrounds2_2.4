@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "other\flag/serapis"
+	"$translucent" 1
+ 	"$alphatest" 1
+}

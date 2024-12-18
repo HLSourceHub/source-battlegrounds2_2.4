@@ -1,0 +1,9 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "bg_grantel/bg_forge_textures/k_grass2"
+	"$surfaceprop" "grass"
+	"$detail" "bg_grantel/bg_detailtextures/gras01"
+	"$detailscale" .6
+	"%detailtype" "forge1"
+}
+

@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "mount_and_musket/wood11"
+	"$surfaceprop" "wood"
+	"$detail" "detail/noise_detail_02"
+	"$detailblendfactor" "2.0"
+}

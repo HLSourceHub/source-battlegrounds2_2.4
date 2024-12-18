@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "bg_grantel/bg_forge_textures/ren_roof12b"
+	"$surfaceprop" "wood"
+	"$detail" "bg_grantel/bg_detailtextures/structure"
+	"$detailscale" .6
+}
+

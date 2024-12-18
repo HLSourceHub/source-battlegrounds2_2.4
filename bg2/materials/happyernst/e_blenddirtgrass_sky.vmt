@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "happyernst/e_dirt2"
+	"$basetexture2" "happyernst/e_ground1"
+	"$detail" "overlays/macro01a"
+	"$detailscale" .1
+        "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+        "$basetexturetransform2" "center .5 .5 scale 1 1 rotate 10 translate 0 0"
+	"$surfaceprop" "dirt"
+}

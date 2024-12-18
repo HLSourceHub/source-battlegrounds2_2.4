@@ -1,0 +1,35 @@
+// Pistol
+
+WeaponData
+{
+	// Weapon data is loaded by both the Game and Client DLLs.
+	"printname"		"British Pistol"
+	"viewmodel"		"models/pistol_b/v_pistol_b.mdl"
+	"playermodel"		"models/pistol_b/w_pistol_b.mdl"
+	"anim_prefix"		"pistol"
+	"bucket"		"1"
+	"bucket_position"	"1"
+
+	"clip_size"		"1"
+	"default_clip"		"12"
+	"primary_ammo"		"357"
+	"secondary_ammo"	"None"
+
+	"weight"			"0"
+	"item_flags"			"0"
+	"damage"			"8"
+
+	// Sounds for the weapon. There is a max of 16 sounds per category (i.e. max 16 "single_shot" sounds)
+	SoundData
+	{
+
+		"reload"		"Weapon_Pistol_B.Reload"
+		"single_shot"		"Weapon_Pistol_B.Single"
+		"deploy"		"Weapon_Pistol_B.Deploy"
+	}
+
+	// Weapon Sprite data is loaded by the Client DLL.
+	TextureData
+	{
+	}
+}

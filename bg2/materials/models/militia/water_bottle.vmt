@@ -1,0 +1,9 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/militia/water_bottle"
+"$phong" "1"
+"$phongexponent" 20
+"$phongboost""15"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+}

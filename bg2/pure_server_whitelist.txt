@@ -1,0 +1,35 @@
+whitelist
+{
+	//
+	// 3 modifiers are allowed on file specifications:
+	//
+	//	from_steam		- only check the Steam cache for the file (ignore anything on disk)
+	//	allow_from_disk		- allow the file to come from disk
+	//	check_crc		- used with allow_from_disk - server does CRC checks on the client's file to make sure it matches
+	//
+	//	The default modifier on all files is allow_from_disk. Thus, all files can come from disk and don't need CRC checks unless 
+	//	allow_from_disk can be set at the same time as check_crc. Use the + character in between them to signify this: allow_from_disk+check_crc.
+
+
+	//
+	// Three types of file specifications:
+	//
+	//	1. directory\*.*	- refers to all files under the directory
+	//	2. directory\...	- refers to all files under the directory and all directories under that (recursively)
+	//	3. directory\filename	- refers to a single file
+	
+
+	//	
+	// We'll allow most custom content for now.
+	//
+	materials\...			allow_from_disk
+	materials\particle\...		allow_from_disk+check_crc
+	models\...			allow_from_disk
+	sound\...			allow_from_disk
+	scripts\...			allow_from_disk
+	scripts\HudAnimations.txt	allow_from_disk+check_crc
+	resource\...			allow_from_disk
+	cfg\...				allow_from_disk
+	bin\...				allow_from_disk
+	bin\client.dll			allow_from_disk+check_crc
+}

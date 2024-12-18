@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "maps\tomdon\tomdon_mud_bank"
+	"$basetexture2" "maps\tomdon\tomdon_grass"
+	"%detailtype" "skybox_grass01"
+	"%tooltexture" "maps\tomdon\tomdon_mud_bank"
+	"$surfaceprop" "dirt"
+}

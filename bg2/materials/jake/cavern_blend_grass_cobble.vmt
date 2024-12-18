@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "jake/CG_GRASS"
+   	"$basetexture2" "maps/tomdon/tomdon_cobbles"
+   	"%tooltexture" "jake/CG_GRASS"
+	"$bumpmap" "jake/CG_GRASS_NORMAL"
+	"$bumpmap2" "maps/tomdon/tomdob_cobbles_normal"
+	"%detailtype" "jakedetail1"
+
+}

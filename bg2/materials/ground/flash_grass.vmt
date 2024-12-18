@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "ground/grass001"
+	"%detailtype" "flash_grass01"
+	"$surfaceprop" "dirt"
+	"%keywords" "dod" 
+}

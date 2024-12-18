@@ -1,0 +1,12 @@
+bg_townguard
+bg_plateau
+bg_ambush
+bg_fall
+ctf_river
+bg_new_london
+bg_road
+bg_freemans_farm
+bg_maricopa
+bg_trenton
+bg_woodland
+ctf_mill_creek

@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "maps/tomdon/tomdon_grass_darK"
+   	"$basetexture2" "maps/CG/CG_ROCK"
+   	"%tooltexture" "maps/tomdon/tomdon_grass_darK"
+	
+}

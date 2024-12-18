@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "models\old_town/old_stone_wall"
+	"$translucent" 1
+	"$bumpmap" "models\old_town/old_stone_wall_normal"
+}

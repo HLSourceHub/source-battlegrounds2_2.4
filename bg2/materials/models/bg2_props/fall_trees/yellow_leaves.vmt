@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\fall_trees\yellow_leaves"
+	"$translucent" 1
+}

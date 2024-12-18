@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/teapot"
+	"$surfaceprop" "SolidMetal"
+"$bumpmap" "models/jayarc/teapot_normal"
+	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost"	"0.3"
+	"$phongfresnelranges"	"[1 8 6]"
+
+}
+

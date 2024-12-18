@@ -1,0 +1,19 @@
+
+"LightmappedGeneric"
+{
+	"$basetexture"	"maps/tomdon/waterfall"
+
+	"$translucent"	1
+	
+    	
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" "$baseTextureTransform"
+			"texturescrollrate" 1.1
+			"texturescrollangle" 270.00
+		}
+	}
+}

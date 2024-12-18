@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "bg_grantel/town/glass01"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .16]"
+	"$surfaceprop" "glass"
+	"$translucent" 1
+}

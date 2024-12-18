@@ -1,0 +1,9 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "models/weapons/sleeve_amer_mil"
+	"$bumpmap" "models/weapons/sleeve_amer_mil_normal"
+	"$phong" "1"
+	"$phongexponent" 33
+	"$phongboost""10"
+	"$phongfresnelranges""[0 0.5 1]"
+}

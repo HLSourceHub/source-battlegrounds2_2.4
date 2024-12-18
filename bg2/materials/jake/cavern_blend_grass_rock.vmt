@@ -1,0 +1,15 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "jake/CG_GRASS"
+   	"$basetexture2" "jake/cavernwall"
+   	"%tooltexture" "jake/CG_GRASS"
+	"$bumpmap" "jake/CG_GRASS_NORMAL"
+	"$bumpmap2" "jake/cavernwall_normal"
+	"%detailtype" "jakedetail1"
+	$detail detail\rock_detail_01
+	$detailscale 11
+	$detailblendfactor 1
+	$detailblendmode 0
+
+}

@@ -1,0 +1,10 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/table_lamp"
+	"$surfaceprop" "Metal"
+                  "$bumpmap" "models/jayarc/table_lamp_normal"
+                  "$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost"	"0.08"
+	"$phongfresnelranges"	"[1 8 6]"
+}

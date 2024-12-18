@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/british_officer/british_officer_normal"	
+	"$nocull" 0
+}

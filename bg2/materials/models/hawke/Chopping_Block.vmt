@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+"$baseTexture"      "models/hawke/Chopping_Block"
+"$surfaceprop" "wood"
+"$nocull" 1
+}

@@ -1,0 +1,13 @@
+American Blue/Red	Arms-norm
+American Blue/White	Arms-alt1
+American Brown/Red	Arms-alt2
+
+British Red/Yellow	Brms-nrm
+British Red/Blue	Brms-alt
+British Red/White	Brmsalt2
+
+These apply only to officers
+
+The vmts in the pistol folders are the same as the ones here
+
+~Awesome

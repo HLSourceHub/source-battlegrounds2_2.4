@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/shelf"
+	"$surfaceprop" "Wood_Furniture"
+}

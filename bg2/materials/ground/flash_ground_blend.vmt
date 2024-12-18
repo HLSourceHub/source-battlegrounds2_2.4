@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "ground/grass001"
+	"$baseTexture2" "ground/grass002"
+	"%detailtype" "Peacekeeper"
+	"$surfaceprop" "dirt"
+	"%keywords" "dod" 
+}

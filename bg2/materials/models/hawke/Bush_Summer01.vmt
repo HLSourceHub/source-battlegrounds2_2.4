@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models/hawke/Bush_Summer01"
+    "$alphatest" 1
+    "$nocull" 1
+}

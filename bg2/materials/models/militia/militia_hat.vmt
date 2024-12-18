@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/militia/militia_hat"
+"$bumpmap" "models/militia/militia_hat_normal"
+	"$nocull" "1"
+"$phong" "1"
+"$phongexponent" 25
+"$phongboost" "7"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+}

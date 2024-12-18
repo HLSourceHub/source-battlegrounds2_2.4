@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "ground/grass001"
+	"$baseTexture2" "jake/cavernwall"
+	"%detailtype" "jakedetail1"
+	"$bumpmap" "jake/CG_GRASS_NORMAL"
+	"$bumpmap2" "jake/cavernwall_normal"
+	"$surfaceprop" "dirt"
+	"%keywords" "dod" 
+$blendmodulatetexture "ground/concordgrassblend"
+}

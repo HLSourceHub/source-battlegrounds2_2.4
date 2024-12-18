@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/balustrade"
+       	 "$surfaceprop" "Wood_Solid"
+}

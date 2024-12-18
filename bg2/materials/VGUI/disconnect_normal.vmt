@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI/disconnect_normal"
+                "$translucent" 1
+}

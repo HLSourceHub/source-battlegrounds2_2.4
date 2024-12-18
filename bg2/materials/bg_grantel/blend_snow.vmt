@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+"$basetexture" "maps/fall/fall_dirt"
+"$basetexture2" "nature/snowfloor001a"
+"$surfaceprop" "snow"
+"$surfaceprop2" "snow" 
+}

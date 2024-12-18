@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "other\flag/pinetree"
+	"$translucent" 1
+ 	"$alphatest" 1
+}

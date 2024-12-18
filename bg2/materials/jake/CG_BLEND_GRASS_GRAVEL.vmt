@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "jake/CG_GRASS"
+   	"$basetexture2" "gravel/gravel001"
+   	"%tooltexture" "jake/CG_GRASS"
+	"$bumpmap" "jake/CG_GRASS_NORMAL"
+	"%detailtype" "jakedetail1"
+
+}

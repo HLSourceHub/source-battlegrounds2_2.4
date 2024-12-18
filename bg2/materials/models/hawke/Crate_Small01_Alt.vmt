@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+    "$basetexture" "models/hawke/Crate_Small01_Alt"
+"$surfaceprop" "wood"
+}

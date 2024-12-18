@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	$basetexture2 			nature/grass01
+   	$basetexture 			maps/tomdon/tomdon_cobbles
+	$blendmodulatetexture 		ground/concordgrassblend
+	$detail 			detail/dirt_detail
+	$detailscale 			4
+	$detailblendfactor 		0.5
+}

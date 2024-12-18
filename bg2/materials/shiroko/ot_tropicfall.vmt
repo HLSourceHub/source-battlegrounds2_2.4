@@ -1,0 +1,16 @@
+"UnlitGeneric"
+{
+	"$basetexture" "shiroko/ot_tropicfall"
+	"$translucent" 1
+ "Proxies" 
+	{
+		
+	 "TextureScroll"
+	{
+	"texturescrollvar" "$basetexturetransform"
+	"texturescrollrate" 3
+	"texturescrollangle" -90
+	} 
+
+	}
+}

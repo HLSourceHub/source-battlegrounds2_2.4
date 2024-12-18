@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+   	"$basetexture" "maps/tomdon/tomdon_woodland_floor"
+   	"$basetexture2" "maps/tomdon/long_grass"
+   	"%tooltexture" "maps/tomdon/long_grass"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0" 
+	"$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+	"%detailtype" "tomdon_ferns"
+}

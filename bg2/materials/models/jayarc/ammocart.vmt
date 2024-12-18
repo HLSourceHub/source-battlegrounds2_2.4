@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/ammocart.vtf"
+ "$bumpmap" "models/jayarc/ammocart_normal.vtf"
+}
+

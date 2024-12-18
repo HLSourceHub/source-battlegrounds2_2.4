@@ -1,0 +1,13 @@
+
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/british_infantry/brit_head_diffuse1"
+	"$bumpmap" "models/british_infantry/brit_head_normal"
+	"$nocull" "1"
+"$phong" "1"
+"$phongexponent" 5
+"$phongboost""7"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+}
+

@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/frontiersman/frontier_normal02"
+      "$nocull" 0	
+}

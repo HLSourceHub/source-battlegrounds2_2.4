@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\bg_swamp\reed/reed"
+	"$alphatest" "1"
+	"$nocull" "1"
+}

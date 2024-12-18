@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/barrel2"
+	"$surfaceprop" "Wood_Box"
+"$bumpmap" "models/jayarc/barrel2_normal"
+	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost"	"0.3"
+	"$phongfresnelranges"	"[1 8 6]"
+}
+
+

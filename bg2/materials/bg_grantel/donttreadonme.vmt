@@ -1,0 +1,5 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "bg_grantel/donttreadonme"
+        "$nocull" "1"  
+}

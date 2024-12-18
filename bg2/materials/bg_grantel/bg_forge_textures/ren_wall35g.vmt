@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "bg_grantel/bg_forge_textures/ren_wall35g"
+	"$surfaceprop" "brick"
+	"$detail" "bg_grantel/bg_detailtextures/structure"
+	"$detailscale" .6
+}
+

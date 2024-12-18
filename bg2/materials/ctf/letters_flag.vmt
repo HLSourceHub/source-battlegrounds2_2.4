@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "ctf/letters_flag"
+	"$translucent" 1
+}

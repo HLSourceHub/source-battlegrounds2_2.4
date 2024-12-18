@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/british_infantry/back_pack2"
+	"$bumpmap" "models/british_infantry/back_pack_normal2"
+}

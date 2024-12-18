@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "map/grass_01_v1"
+	"$basetexture2" "map/grass_01_v2"
+	"$bumpmap" "map/grass_01_normal.vtf"
+	"$bumpmap2" "map/grass_01_normal.vtf"
+	"$surfaceprop" "grass"
+	"%keywords" "grass"
+}

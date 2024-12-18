@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/militia/hand"
+	"$detail" "detail\noise_detail_02" 
+	"detailblendfactor" "0.8"
+	"$detailblendmode" "0"
+	"$detailscale" "18"
+}

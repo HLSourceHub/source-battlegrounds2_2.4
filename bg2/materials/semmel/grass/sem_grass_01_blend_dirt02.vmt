@@ -1,0 +1,19 @@
+"WorldVertexTransition"
+{
+   	"$basetexture" "grass\wwi_grass_06"
+	"$bumpmap"	"grass\wwi_grass_06_nor"
+	"$surfaceprop" "grass"
+
+   	"$basetexture2" "dirt\wwi_dirt02"
+	//"$bumpmap2"	"dirt\wwi_dirt01_nor"
+	"$surfaceprop2" "dirt"
+	
+	"$seamless_scale" "0.005"
+
+//	"$ssbump"		"1"		
+//	"$blendmodulatetexture"    "texture/wwi_dirt01_blend"
+
+	"$basetexturetransform" "center .005 .5 scale 3.0 3.0 rotate 0 translate 0 0"
+	"%keywords" "ww1"
+	"%detailtype" "somme_grass02"
+}

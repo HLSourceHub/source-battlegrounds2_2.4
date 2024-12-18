@@ -1,0 +1,15 @@
+bg_ambush
+bg_fall
+bg_freemans_farm
+bg_maricopa
+bg_new_london
+bg_plateau
+bg_road
+bg_snowlake
+bg_townguard
+bg_trenton
+bg_woodland
+ctf_river
+ctf_mill_creek
+lb_alpinepass
+lb_battleofconcord

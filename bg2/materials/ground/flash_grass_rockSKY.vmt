@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+	"$baseTexture" "ground/grass001"
+	"$baseTexture2" "jake/cavernwall"
+	"$surfaceprop" "dirt"
+	"%keywords" "dod" 
+}

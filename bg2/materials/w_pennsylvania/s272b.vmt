@@ -1,0 +1,10 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "w_pennsylvania/s272b"
+	"$bumpmap"	"w_pennsylvania/s272b"
+"$phong" "1"
+"$phongexponent" 50
+"$phongboost""30"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+}

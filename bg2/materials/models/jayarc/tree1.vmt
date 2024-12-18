@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/tree1"
+	"$surfaceprop" "Wood_Solid"
+	"$translucent" 1
+	"$alphatest" 1
+	"$nocull" 1
+}

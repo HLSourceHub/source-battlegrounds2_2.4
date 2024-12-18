@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/continental_soldier/conti_head_uv6"
+"$bumpmap" "models/continental_soldier/conti_head_uv_normal4"
+"$phong" "1"
+"$phongexponent" 5
+"$phongboost" "6"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+	"$nocull" 1
+}

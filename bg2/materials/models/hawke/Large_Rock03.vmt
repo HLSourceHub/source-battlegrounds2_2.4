@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+"$baseTexture"      "models/hawke/Large_Rock03"
+"$bumpmap" "models/hawke/Large_Rock03_Normal"
+"$nocull" 1
+}

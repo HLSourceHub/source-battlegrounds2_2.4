@@ -1,0 +1,9 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "wood/WoodWall007"
+	"$bumpmap" "wood/WoodWall007_normal"
+	"$surfaceprop" "Wood_Solid"
+	"$detail" "detail/noise_detail_02"
+	"$detailblendfactor" "1.8"
+	"$detailscale" "3"
+}

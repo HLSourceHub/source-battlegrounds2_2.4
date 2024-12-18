@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    	"$basetexture" "maps/tomdon/tomdon_wood_plank"
+	"$bumpmap" "maps/tomdon/tomdon_wood_plank_normal"   
+}

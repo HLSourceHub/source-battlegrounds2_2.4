@@ -1,0 +1,5 @@
+"Unlitgeneric"
+{
+	"$baseTexture" "hud/hud_swingometer_red"
+	"$translucent" 1
+}

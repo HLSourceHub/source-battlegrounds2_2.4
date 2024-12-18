@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\skybox\tree_group"
+	"$translucent" 1
+	"$nocull" 1
+	"$alphatest" 1
+}

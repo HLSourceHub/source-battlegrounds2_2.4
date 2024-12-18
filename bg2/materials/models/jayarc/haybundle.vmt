@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/haybundle"
+	"$surfaceprop" "Grass"
+}

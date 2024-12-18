@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    	"$basetexture" "maps/fall/fall_leaves"
+	"$bumpmap" "maps/fall/fall_leaves_normal"
+}

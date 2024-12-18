@@ -1,0 +1,5 @@
+"Unlitgeneric"
+{
+	"$baseTexture" "hud/death_longpattern_bayonet"
+	"$translucent" 1
+}

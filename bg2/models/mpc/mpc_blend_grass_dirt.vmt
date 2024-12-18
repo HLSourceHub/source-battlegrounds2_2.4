@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "mpc/mpc_grass"
+   	"$basetexture2" "nature/dirtfloor003a"
+   	"%tooltexture" "mpc/mpc_grass"
+	"$bumpmap" "mpc/mpc_grass_normal"
+	"%detailtype" "jakedetail1"
+}

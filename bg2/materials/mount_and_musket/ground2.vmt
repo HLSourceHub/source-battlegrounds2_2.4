@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "mount_and_musket/ground2"
+	"%detailtype" "road_01"
+	"$surfaceprop" "dirt"
+	"$detail" "overlays/macro01a"
+	"$detailscale" .1
+}

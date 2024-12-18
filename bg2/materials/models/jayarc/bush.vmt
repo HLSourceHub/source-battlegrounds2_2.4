@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/bush"
+	"$surfaceprop" "foilage"
+	"$alphatest" 1
+	"$nocull" 1
+}

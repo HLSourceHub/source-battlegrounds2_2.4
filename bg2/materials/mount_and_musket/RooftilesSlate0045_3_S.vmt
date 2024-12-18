@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "mount_and_musket/RooftilesSlate0045_3_S"
+	"$surfaceprop" "wood"
+	"$bumpmap" "mount_and_musket/RooftilesSlate0045_3_S_normal"
+}

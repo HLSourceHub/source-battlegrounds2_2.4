@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+"$basetexture" "bg_grantel/wood011"
+"$basetexture2" "nature/snowfloor001a"
+"$surfaceprop" "Wood_Plank"
+"$surfaceprop2" "Wood_Plank" 
+}

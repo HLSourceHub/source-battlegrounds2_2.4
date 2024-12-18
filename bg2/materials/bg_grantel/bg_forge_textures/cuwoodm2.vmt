@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "de_chateau/woodm"
+	"$surfaceprop" "wood"
+	"$detail" "bg_grantel/bg_detailtextures/structure"
+	"$detailscale" .6
+}
+

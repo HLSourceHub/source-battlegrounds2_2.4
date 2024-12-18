@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "cs_italy/wallpaper02a"
+	"$surfaceprop" "plaster"
+	"$bumpmap" "cs_italy/wallpaper02a_normal"
+}

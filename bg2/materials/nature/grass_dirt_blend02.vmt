@@ -1,0 +1,12 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/grass01"
+	"$bumpmap" "nature/grass01_bump"
+	"$basetexture2" "nature/Dirtpebbles001"
+	"$bumpmap2" "nature/Dirtpebbles001_normal"
+	"$surfaceprop" "Grass"
+	"$surfaceprop2" "Rock"
+	"%keywords" "awesome"
+	$blendmodulatetexture "ground/concordgrassblend"
+	"%detailtype" "Peacekeeper"
+}

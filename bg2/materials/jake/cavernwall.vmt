@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+"$baseTexture" "jake/cavernwall"
+"$surfaceprop" "concrete"
+"$bumpmap" "jake/cavernwall_normal"
+} 

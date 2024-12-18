@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/bg2_props/wood_spike/wood_spike"
+	"$bumpmap" "models/bg2_props/wood_spike/wood_spike_normal"		
+}

@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "other\flag/3rdmaryland"
+	"$translucent" 1
+ 	"$alphatest" 1
+}

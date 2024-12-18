@@ -1,0 +1,10 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+</head>
+<body>
+<img src="../british/britishflag.png" height="32" width="64"> (image)
+
+<p><font face="Verdana" color="#000000" size="1"> (description text)
+</body>
+</html>

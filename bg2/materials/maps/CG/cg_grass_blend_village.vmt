@@ -1,0 +1,14 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "maps/cg/cg_grass_village_1"
+   	"$basetexture2" "maps/cg/cg_grass_2_village"
+   	"%tooltexture" "maps/cg/cg_grass_village_1"
+"%detailtype" "Peacekeeper"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "dirt"
+$blendmodulatetexture "ground/concordgrassblend"
+$seamless_scale 	0.005
+
+	
+}

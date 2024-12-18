@@ -1,0 +1,11 @@
+"WorldVertexTransition"
+{
+   	"$basetexture" "maps/fall/fall_dirt"
+	"$basetexture2" "maps/tomdon/tomdon_cobbles" 
+	"%tooltexture" "maps/tomdon/tomdon_cobbles" 
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0" 
+	"$basetexturetransform2" "center .5 .5 scale 1 1 rotate 10 translate 0 0" 
+	"$surfaceprop" "dirt"   
+}
+
+

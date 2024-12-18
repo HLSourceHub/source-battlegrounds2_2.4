@@ -1,0 +1,9 @@
+"WorldVertexTransition" 
+{ 
+   "$basetexture" "nature/snowfloor003a" 
+   "$basetexture2" "nature/cliffface002a" 
+   "%tooltexture" "nature/snowfloor003a" 
+   "$basetexturetransform" "center .5 .5 scale 1 1 rotate 0  translate 0 0" 
+   "$basetexturetransform2" "center .5 .5 scale 4 4 rotate 0 translate 0 0" 
+   "%keywords" "snow" 
+}

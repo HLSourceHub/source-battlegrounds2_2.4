@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    	"$basetexture" "maps/tomdon/tomdon_stone_wall"
+        "$surfaceprop" "boulder"
+	"$bumpmap" "maps/tomdon/tomdon_stone_wall_normal"
+	"$env_cubemap" "maps/tomdon/tomdon_stone_wall_spec"
+}

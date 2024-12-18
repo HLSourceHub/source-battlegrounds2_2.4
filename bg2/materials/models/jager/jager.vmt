@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models/jager/jager"
+	"$nocull" "1"
+	"$bumpmap" "models/jager/jager_normal"
+}

@@ -1,0 +1,7 @@
+// To disable the Trailer from playing, simply add the "//" in front of the "media/BG2Intro1.wmv".
+
+// media/BG2Intro1.wmv
+
+// Trailer by Robert Stoneman
+
+// NOTE:  NEEDS TO BE EDITED BEFORE RELEASE A LITTLE BIT

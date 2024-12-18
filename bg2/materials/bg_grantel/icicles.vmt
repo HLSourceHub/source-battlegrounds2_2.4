@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "bg_grantel/icicles"
+	"$alphatest" 1
+	"$translucent" 1
+	"$nocull" "1"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\tent/tent_bake"
+	"$nocull" 1
+	"$bumpmap" "models\bg2_props\tent\tent_normal"
+}

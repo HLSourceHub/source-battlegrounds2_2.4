@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "bg_grantel/tag"
+    "$translucent" 1
+}

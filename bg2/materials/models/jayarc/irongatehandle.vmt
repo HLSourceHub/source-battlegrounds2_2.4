@@ -1,0 +1,12 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/irongatehandle"
+	"$bumpmap" "models/jayarc/irongatehandle_normal"
+         "$surfaceprop" "solidmetal"
+ "$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost"	"0.08"
+	"$phongfresnelranges"	"[1 8 6]"
+}
+
+

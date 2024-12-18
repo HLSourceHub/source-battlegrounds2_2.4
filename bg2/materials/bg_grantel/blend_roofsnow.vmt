@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+"$basetexture" "de_tides/tides_roof_1"
+"$basetexture2" "nature/snowfloor001a"
+"$surfaceprop" "Wood_Plank"
+"$surfaceprop2" "snow" 
+}

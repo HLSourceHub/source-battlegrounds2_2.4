@@ -1,0 +1,6 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "other\flag/1stcontinental"
+	"$translucent" 1
+ 	"$alphatest" 1
+}

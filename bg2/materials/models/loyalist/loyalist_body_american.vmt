@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/loyalist/loyalist_body_american"
+	"$nocull" 0
+}

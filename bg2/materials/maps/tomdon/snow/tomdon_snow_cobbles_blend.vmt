@@ -1,0 +1,5 @@
+"worldvertextransition"
+{
+    	"$basetexture" "maps/tomdon/snow/tomdon_snow"
+        "$basetexture2" "maps/tomdon/snow/tomdon_snow_cobbles"
+}

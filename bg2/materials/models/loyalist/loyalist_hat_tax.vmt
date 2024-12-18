@@ -1,0 +1,12 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/loyalist/loyalist_hat_tax"		
+	"$bumpmap"	"models/loyalist/loyalist_hat_tax_peace_normal"
+	"$nocull"	"1"
+	"$alphatest" 	1
+	"$phong" "1"
+	"$phongexponent" 25
+	"$phongboost" "7"
+	"$phongfresnelranges""[0 0.5 1]"
+	"$halflambert"  1
+}

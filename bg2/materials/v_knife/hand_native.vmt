@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "common/hand_native"
+	"$bumpmap" 	"common/hand_normal"
+}

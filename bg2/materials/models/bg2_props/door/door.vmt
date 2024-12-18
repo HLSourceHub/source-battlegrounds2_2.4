@@ -1,0 +1,8 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/bg2_props/door/door"
+	"$bumpmap" "models/bg2_props/door/door_normal"	
+	"$envmap" "env_cubemap"
+	"$envmapcontrast" 0.8
+	"$normalmapalphaenvmapmask" 1	
+}

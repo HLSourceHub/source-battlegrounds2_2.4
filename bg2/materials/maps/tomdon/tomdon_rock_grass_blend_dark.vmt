@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+   	"$basetexture" "maps\tomdon\tomdon_grass_dark"
+   	"$basetexture2" "maps/CG/CG_ROCK"
+
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "rock"
+
+	"$detail" "overlays/macro01a"
+	"$detailscale" .2
+
+   	"%tooltexture" "maps\tomdon\tomdon_grass_dark"
+}

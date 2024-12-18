@@ -1,0 +1,5 @@
+"UnlitGeneric"
+{
+	"$basetexture" "VGUI\gfx\vgui\bg2_logo"
+	"$translucent" 1
+}

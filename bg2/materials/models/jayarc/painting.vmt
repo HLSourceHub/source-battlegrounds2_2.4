@@ -1,0 +1,5 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/painting"
+	"$surfaceprop" "Wood_Panel"
+}

@@ -1,0 +1,11 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "common/sleeve/british_jaeger_green"
+        "$bumpmap" "common/sleeve/british_jaeger_normal"
+"$phong" "1"
+"$phongexponent" 33
+"$phongboost""3"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+}
+

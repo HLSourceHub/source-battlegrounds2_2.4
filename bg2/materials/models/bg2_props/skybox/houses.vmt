@@ -1,0 +1,6 @@
+"vertexlitGeneric"
+{
+	"$basetexture" "models/bg2_props/skybox/houses"
+	"$translucent" 1
+	"$alphatest" 1
+}

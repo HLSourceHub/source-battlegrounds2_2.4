@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "cs_havana/woodm"
+	"$bumpmap" "cs_havana/woodm_normal"
+	"$surfaceprop" "wood"
+}

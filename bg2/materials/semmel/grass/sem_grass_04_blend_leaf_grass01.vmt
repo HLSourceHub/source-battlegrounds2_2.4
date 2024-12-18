@@ -1,0 +1,21 @@
+"WorldVertexTransition"
+{
+   	"$basetexture" "semmel\grass\sem_grass_04"
+	"$bumpmap"	"semmel\grass\sem_grass_04_ssbump"
+	"$surfaceprop" "grass"
+
+   	"$basetexture2" "semmel\grass\sem_leaf_grass_01"
+	"$bumpmap2"	"semmel\grass\sem_leaf_grass_01_ssbump"
+	"$surfaceprop2" "grass"
+	
+	"$seamless_scale" "0.005"
+	"$mathfix" "1"
+	"$ssbump"		"1"		
+	//"$blendmodulatetexture"    "ground/quebecblendtextur"
+
+	"$reflectivity" "[0.75 0.75 0.75]"
+
+	"$basetexturetransform" "center .005 .5 scale 2.0 2.0 rotate 0 translate 0 0"
+	"%keywords" "semmel"
+	"%detailtype" "somme_grass03"
+}

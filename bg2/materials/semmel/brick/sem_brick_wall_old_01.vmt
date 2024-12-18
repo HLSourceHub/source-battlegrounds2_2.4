@@ -1,0 +1,13 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "semmel/brick/sem_brick_wall_old_01"
+	"$surfaceprop" "stone"
+	"$bumpmap"	"semmel/brick/sem_brick_wall_old_01_ssbump"
+	"$reflectivity" "[0.75 0.75 0.75]"
+
+	"$mathfix" "1"
+	"$ssbump"		"1"
+
+//	"$seamless_scale" "0.006"
+	"%keywords" "semmel" 
+}

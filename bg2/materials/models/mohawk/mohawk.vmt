@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/mohawk/mohawk"
+	
+        //"$nocull" 1
+   "$bumpmap" "models/mohawk/mohawk1_normal"
+"$phong" "1"
+"$phongexponent" 5
+"$phongboost""6"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+}

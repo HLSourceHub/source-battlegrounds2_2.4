@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture2" "nature/dirtfloor003a"
+   	"$basetexture" "jake/cavernwall"
+   	"%tooltexture" "jake/CG_GRASS"
+	"$bumpmap" "jake/cavernwall_normal"
+
+}

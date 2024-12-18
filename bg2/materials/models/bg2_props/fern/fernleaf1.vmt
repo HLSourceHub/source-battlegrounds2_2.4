@@ -1,0 +1,7 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models/bg2_props/fern/fernleaf1"
+	"$translucent" 1
+ 	"$alphatest" 1
+	"$nocull" 1	
+}

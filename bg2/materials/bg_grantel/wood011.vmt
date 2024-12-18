@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "bg_grantel/wood011"
+	"$surfaceprop" "Wood_Panel"
+	"$normalmap"  "bg_grantel/wood011_normal"
+}

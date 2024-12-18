@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$baseTexture" "bg_grantel/bg_tent1"
+	"$bumpmap" "bg_grantel/bg_tent1_normal"
+	"$nocull" 0
+}

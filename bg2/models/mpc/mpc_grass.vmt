@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+"$baseTexture" "mpc/mpc_grass"
+"$surfaceprop" "dirt"
+"$bumpmap" "mpc/mpc_grass_normal"
+"%detailtype" "jakedetail1"
+} 

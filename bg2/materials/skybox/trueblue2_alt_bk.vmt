@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+    "$basetexture" "skybox/trueblue2_alt_bk"
+    "$nofog" 1
+    "$ignorez" 1
+}

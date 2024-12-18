@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "maps/tomdon/tomdon_cobbles"
+	"$basetexture2" "bg_grantel/snow"
+	"$env_cubemap" "maps/tomdon/tomdon_cobbles_spec"
+	"$detail" "bg_grantel/detail_snowlake"
+	"$detailscale" .2
+}

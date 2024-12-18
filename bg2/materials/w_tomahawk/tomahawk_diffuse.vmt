@@ -1,0 +1,5 @@
+"vertexlitgeneric"
+{
+	"$basetexture" "w_tomahawk/tomahawk_diffuse"
+	"$bumpmap" "w_tomahawk/tomahawk_normal"
+}

@@ -1,0 +1,2141 @@
+//Peacekeeper + Jake. For Assault.
+detail
+{
+
+rockwoodmix_1
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/effects/debris_rock1.mdl"
+				"amount" "0.10"
+			}
+			Model2
+			{
+				"model" "models/effects/debris_rock2.mdl"
+				"amount" "0.10"
+			}
+			Model3
+			{
+				"model" "models/effects/debris_rock3.mdl"
+				"amount" "0.10"
+			}
+			Model4
+			{
+				"model" "models/effects/debris_rock4.mdl"
+				"amount" "0.10"
+			}
+			Model5
+			{
+				"model" "models/effects/debris_rock5.mdl"
+				"amount" "0.10"
+			}
+			Model6
+			{
+				"model" "models/effects/debris_wood1.mdl"
+				"amount" "0.10"
+			}
+			Model7
+			{
+				"model" "models/effects/debris_wood2.mdl"
+				"amount" "0.10"
+			}
+			Model8
+			{
+				"model" "models/effects/debris_wood3.mdl"
+				"amount" "0.10"
+			}
+			Model9
+			{
+				"model" "models/effects/debris_wood4.mdl"
+				"amount" "0.10"
+			}
+			Model0
+			{
+				"model" "models/effects/debris_wood5.mdl"
+				"amount" "0.10"
+			}
+		}
+	}
+
+
+rockbits_1
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/effects/debris_rock1.mdl"
+				"amount" "0.10"
+			}
+			Model2
+			{
+				"model" "models/effects/debris_rock2.mdl"
+				"amount" "0.10"
+			}
+			Model3
+			{
+				"model" "models/effects/debris_rock3.mdl"
+				"amount" "0.10"
+			}
+			Model4
+			{
+				"model" "models/effects/debris_rock4.mdl"
+				"amount" "0.10"
+			}
+			Model5
+			{
+				"model" "models/effects/debris_rock5.mdl"
+				"amount" "0.10"
+			}
+			Model6
+			{
+				"model" "models/effects/debris_wood5.mdl"
+				"amount" "0.10"
+			}
+		}
+	}
+
+woodbits_1
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/effects/debris_wood1.mdl"
+				"amount" "0.10"
+			}
+			Model2
+			{
+				"model" "models/effects/debris_wood2.mdl"
+				"amount" "0.10"
+			}
+			Model3
+			{
+				"model" "models/effects/debris_wood3.mdl"
+				"amount" "0.10"
+			}
+			Model4
+			{
+				"model" "models/effects/debris_wood4.mdl"
+				"amount" "0.10"
+			}
+			Model5
+			{
+				"model" "models/effects/debris_wood5.mdl"
+				"amount" "0.10"
+			}
+			Model6
+			{
+				"model" "models/effects/debris_rock5.mdl"
+				"amount" "0.10"
+			}
+		}
+	}
+
+rockwoodmix_1a
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_debris/detail_debris_rock1.mdl"
+				"amount" "0.25"
+			}
+			Model2
+			{
+				"model" "models/props_debris/detail_debris_rock2.mdl"
+				"amount" "0.25"
+			}
+			Model3
+			{
+				"model" "models/props_debris/detail_debris_wood1.mdl"
+				"amount" "0.25"
+			}
+			Model4
+			{
+				"model" "models/props_debris/detail_debris_wood2.mdl"
+				"amount" "0.25"
+			}
+		}
+	}
+
+
+rockbits_1a
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_debris/detail_debris_rock1.mdl"
+				"amount" "0.33"
+			}
+			Model2
+			{
+				"model" "models/props_debris/detail_debris_rock2.mdl"
+				"amount" "0.33"
+			}
+			Model3
+			{
+				"model" "models/props_debris/detail_debris_wood1.mdl"
+				"amount" "0.33"
+			}
+		}
+	}
+
+woodbits_1a
+	{
+		"density" "600.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_debris/detail_debris_wood1.mdl"
+				"amount" "0.33"
+			}
+			Model2
+			{
+				"model" "models/props_debris/detail_debris_wood2.mdl"
+				"amount" "0.33"
+			}
+			Model3
+			{
+				"model" "models/props_debris/detail_debris_rock2.mdl"
+				"amount" "0.33"
+			}
+		}
+	}
+summer_grass01
+	{
+		"density" "250.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_foliage/flowers_red.mdl"
+				"amount" "0.025"
+			}
+
+			Model2
+			{
+				"model" "models/props_foliage/flowers_white.mdl"
+				"amount" "0.05"
+			}
+			Model3
+			{
+				"model" "models/props_foliage/grass1.mdl"
+				"amount" "0.1"
+			}
+			Model4
+			{
+				"model" "models/props_foliage/grass2.mdl"
+				"amount" "0.05"
+			}
+			Model5
+			{
+				"model" "models/props_foliage/grass3.mdl"
+				"amount" "0.25"
+			}
+			
+
+		}
+	}
+coastline_grass01
+	{
+		"density" "145.0" //how often they appear inside material
+
+		Group1
+		{
+			"alpha" "0.0"
+		}
+		Group2
+		{
+			"alpha" "0.5"
+		}
+		Group3
+		{
+			"alpha" "1.0"
+			
+			Model1 //main grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"776 0 248 121 1024"
+				"spritesize"	"0.5 0.0 50 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.7"
+				"detailOrientation" "0"
+				"shape_angle"	"25" //degrees of tip/flare
+				"shape_size"	"0.025" //0 means that percentage times width of sprite. no overlap. .01 is like snowflake.
+				"sway"	"0.3"
+			}
+
+			Model2 //light green weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"510 294 171 280 1024"
+				"spritesize"	"0.5 0.0 10 30"
+				"spriterandomscale"	"0.4"
+				"amount" "0.05"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.035"
+				"sway"	"0.5"
+			}
+
+			Model3 //purple weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"680 294 167 280 1024"
+				"spritesize"	"0.5 0.0 16 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+
+			Model4 //seeder weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"846 294 178 267 1024"
+				"spritesize"	"0.5 0.0 36 46"
+				"spriterandomscale"	"0.1"
+				"amount" "0.10"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model5 //dandelion weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"341 819 250 205 1024"
+				"spritesize"	"0.5 0.0 25 20"
+				"spriterandomscale"	"0.1"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"22"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model6 //weed grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"412 597 240 132 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model7 //single seedy weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"764 583 83 237 1024"
+				"spritesize"	"0.5 0.0 10 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model8 //thin leaf bunch
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"590 819 139 205 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+		}
+	}	
+	jakedetail1
+	{
+		"density" "705.0" //PLEASE DONT EDIT THIS TYPE. COPY AND PASTE TO A NEW DEFINITION IF YOU NEED IT
+
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		Group2
+		{
+			"alpha" "0.5"
+		}
+		Group3
+		{
+			"alpha" "0.0"
+			
+			Model1 //long thin grass
+			{
+			//	"sprite_shape"	"tri"
+				"sprite"	"0 0 128 128 512"
+				"spritesize"	"0.5 0.0 30 25"
+				"spriterandomscale"	"0.5"
+				"amount" "0.32"
+				"detailOrientation" "0"
+				"shape_angle"	"25" //degrees of tip/flare
+				"shape_size"	"0.025" //0 means that percentage times width of sprite. no overlap. .01 is like snowflake.
+				"sway"	"0.3"
+			}
+
+			Model2 //reedy grass
+			{
+			//	"sprite_shape"	"tri"
+				"sprite"	"256 0 128 128 512"
+				"spritesize"	"0.5 0.0 30 20"
+				"spriterandomscale"	"0.4"
+				"amount" "0.21"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.035"
+				"sway"	"0.5"
+			}
+
+			Model3 //dead weed
+			{
+			//	"sprite_shape"	"tri"
+				"sprite"	"176 144 96 128 512"
+				"spritesize"	"0.5 0.0 24 30"
+				"spriterandomscale"	"0.5"
+				"amount" "0.17"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+
+			Model4 //white flower
+			{
+			//	"sprite_shape"	"tri"
+				"sprite"	"440 288 60 128 512"
+				"spritesize"	"0.5 0.0 10 24"
+				"spriterandomscale"	"0.3"
+				"amount" "0.02"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model5 //yellow flower
+			{
+			//	"sprite_shape"	"tri"
+				"sprite"	"432 144 60 128 512"
+				"spritesize"	"0.5 0.0 10 22"
+				"spriterandomscale"	"0.2"
+				"amount" "0.05"
+				"detailOrientation" "0"
+				"shape_angle"	"22"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model6 //thick yellow grass
+			{
+			//	"sprite_shape"	"tri"
+				"sprite"	"232 420 152 92 512"
+				"spritesize"	"0.5 0.0 52 36"
+				"spriterandomscale"	"0.3"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model7 //thick green grass
+			{
+			//	"sprite_shape"	"tri"
+				"sprite"	"384 420 128 92 512"
+				"spritesize"	"0.5 0.0 24 24"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model8 //green weeds
+			{
+			//	"sprite_shape"	"tri"
+				"sprite"	"144 0 96 128 512"
+				"spritesize"	"0.5 0.0 15 30"
+				"spriterandomscale"	"0.3"
+				"amount" "0.02"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+		}
+	}
+	flash_grass_low
+	{
+		"density" "105.0" //how often they appear inside material
+
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		Group2
+		{
+			"alpha" "0.5"
+		}
+		Group3
+		{
+			"alpha" "0.0"
+			
+//			Model1
+//			{
+//				"sprite" "0 0 128 128 1024" //start at 0,0...128,128 is size of box in material, 1024 is material size
+//				"spritesize"	"0.5 0.0 40 50" //last two numbers are world size of sprite
+//				"spriterandomscale"	"0.2" //randomness of sprite sizes
+//				"amount" "0.3" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+//				"detailOrientation" "2" //faces player. 0 would not rotate. 1 does ugly things.
+//				"sway"	"0.9" //0-1. 0 doesn't sway much, 1 sways a lot
+//			}
+			
+//			Model2
+//			{
+//				"sprite_shape"	"cross"
+//				"sprite"	"0 139 116 124 1024"
+//				"spritesize"	"0.5 0.0 40 50"
+//				"spriterandomscale"	"0.2"
+//				"amount" "0.3"
+//				"detailOrientation" "0"
+//				"sway"	"0.1"
+//			}
+			
+			Model1 //main grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"776 0 248 121 1024"
+				"spritesize"	"0.5 0.0 50 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.7"
+				"detailOrientation" "0"
+				"shape_angle"	"25" //degrees of tip/flare
+				"shape_size"	"0.025" //0 means that percentage times width of sprite. no overlap. .01 is like snowflake.
+				"sway"	"0.3"
+			}
+
+			Model2 //light green weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"510 294 171 280 1024"
+				"spritesize"	"0.5 0.0 10 30"
+				"spriterandomscale"	"0.4"
+				"amount" "0.05"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.035"
+				"sway"	"0.5"
+			}
+
+			Model3 //purple weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"680 294 167 280 1024"
+				"spritesize"	"0.5 0.0 16 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+
+			Model4 //seeder weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"846 294 178 267 1024"
+				"spritesize"	"0.5 0.0 36 46"
+				"spriterandomscale"	"0.1"
+				"amount" "0.10"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model5 //dandelion weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"341 819 250 205 1024"
+				"spritesize"	"0.5 0.0 25 20"
+				"spriterandomscale"	"0.1"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"22"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model6 //weed grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"412 597 240 132 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model7 //single seedy weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"764 583 83 237 1024"
+				"spritesize"	"0.5 0.0 10 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model8 //thin leaf bunch
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"590 819 139 205 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+		}
+	}
+
+	flash_grass_med
+	{
+		"density" "120.0" //how often they appear inside material
+
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		Group2
+		{
+			"alpha" "0.5"
+		}
+		Group3
+		{
+			"alpha" "0.0"
+			
+//			Model1
+//			{
+//				"sprite" "0 0 128 128 1024" //start at 0,0...128,128 is size of box in material, 1024 is material size
+//				"spritesize"	"0.5 0.0 40 50" //last two numbers are world size of sprite
+//				"spriterandomscale"	"0.2" //randomness of sprite sizes
+//				"amount" "0.3" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+//				"detailOrientation" "2" //faces player. 0 would not rotate. 1 does ugly things.
+//				"sway"	"0.9" //0-1. 0 doesn't sway much, 1 sways a lot
+//			}
+			
+//			Model2
+//			{
+//				"sprite_shape"	"cross"
+//				"sprite"	"0 139 116 124 1024"
+//				"spritesize"	"0.5 0.0 40 50"
+//				"spriterandomscale"	"0.2"
+//				"amount" "0.3"
+//				"detailOrientation" "0"
+//				"sway"	"0.1"
+//			}
+			
+			Model1 //main grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"776 0 248 121 1024"
+				"spritesize"	"0.5 0.0 50 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.7"
+				"detailOrientation" "0"
+				"shape_angle"	"25" //degrees of tip/flare
+				"shape_size"	"0.025" //0 means that percentage times width of sprite. no overlap. .01 is like snowflake.
+				"sway"	"0.3"
+			}
+
+			Model2 //light green weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"510 294 171 280 1024"
+				"spritesize"	"0.5 0.0 10 30"
+				"spriterandomscale"	"0.4"
+				"amount" "0.05"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.035"
+				"sway"	"0.5"
+			}
+
+			Model3 //purple weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"680 294 167 280 1024"
+				"spritesize"	"0.5 0.0 16 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+
+			Model4 //seeder weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"846 294 178 267 1024"
+				"spritesize"	"0.5 0.0 36 46"
+				"spriterandomscale"	"0.1"
+				"amount" "0.10"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model5 //dandelion weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"341 819 250 205 1024"
+				"spritesize"	"0.5 0.0 25 20"
+				"spriterandomscale"	"0.1"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"22"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model6 //weed grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"412 597 240 132 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model7 //single seedy weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"764 583 83 237 1024"
+				"spritesize"	"0.5 0.0 10 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model8 //thin leaf bunch
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"590 819 139 205 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+		}
+	}
+	skybox_grass01
+	{
+		"density" "600.0" //how often they appear inside material
+
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		Group2
+		{
+			"alpha" "0.5"
+		}
+		Group3
+		{
+			"alpha" "0.0"
+
+			Model1 //huge bushtree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 0 249 288 1024"
+				"spritesize"	"0.5 0.0 100 110"
+				"spriterandomscale"	"0.3"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+
+			Model2 //round tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"249 0 290 288 1024"
+				"spritesize"	"0.5 0.0 80 80"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.02"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+
+			Model3 //tall thin tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"539 0 150 288 1024"
+				"spritesize"	"0.5 0.0 70 85"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+
+			Model4 //long low bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"688 180 336 96 1024"
+				"spritesize"	"0.5 0.0 80 30"
+				"spriterandomscale"	"0.1"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.08"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+
+			Model5 //medium puff tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 294 164 230 1024"
+				"spritesize"	"0.5 0.0 50 60"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.05"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+			Model6 //medium scattered tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"163 294 216 230 1024"
+				"spritesize"	"0.5 0.0 60 65"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+
+			Model7 //tall thin bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"378 294 94 230 1024"
+				"spritesize"	"0.5 0.0 45 110"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"0"
+				"shape_size"	"0.01"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+			Model8 //medium scattered bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 523 177 297 1024"
+				"spritesize"	"0.5 0.0 50 55"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+			Model9 //huge bushtree2
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"177 523 236 297 1024"
+				"spritesize"	"0.5 0.0 85 100"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"3"
+				"shape_size"	"0.03"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+			Model10 //medium puff bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 819 276 178 1024"
+				"spritesize"	"0.5 0.0 75 65"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+		}
+	}
+
+
+
+
+anzio_grass_dense
+	{
+		"density" "800.0" //how often they appear inside material
+		
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		Group2
+		{
+			"alpha" "0.9"
+		}
+
+		
+		Group3
+		{
+			"alpha" "0.0"
+			
+//			Model1
+//			{
+//				"sprite" "0 0 128 128 1024" //start at 0,0...128,128 is size of box in material, 1024 is material size
+//				"spritesize"	"0.5 0.0 40 50" //last two numbers are world size of sprite
+//				"spriterandomscale"	"0.2" //randomness of sprite sizes
+//				"amount" "0.3" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+//				"detailOrientation" "2" //faces player. 0 would not rotate. 1 does ugly things.
+//				"sway"	"0.9" //0-1. 0 doesn't sway much, 1 sways a lot
+//			}
+			
+//			Model2
+//			{
+//				"sprite_shape"	"cross"
+//				"sprite"	"0 139 116 124 1024"
+//				"spritesize"	"0.5 0.0 40 50"
+//				"spriterandomscale"	"0.2"
+//				"amount" "0.3"
+//				"detailOrientation" "0"
+//				"sway"	"0.1"
+//			}
+			
+			Model1 //main grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"776 0 248 121 1024"
+				"spritesize"	"0.5 0.0 50 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.7"
+				"detailOrientation" "0"
+				"shape_angle"	"25" //degrees of tip/flare
+				"shape_size"	"0.025" //0 means that percentage times width of sprite. no overlap. .01 is like snowflake.
+				"sway"	"0.3"
+			}
+
+			Model2 //light green weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"510 294 171 280 1024"
+				"spritesize"	"0.5 0.0 10 30"
+				"spriterandomscale"	"0.4"
+				"amount" "0.05"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.035"
+				"sway"	"0.5"
+			}
+
+			Model3 //purple weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"680 294 167 280 1024"
+				"spritesize"	"0.5 0.0 16 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+
+			Model4 //seeder weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"846 294 178 267 1024"
+				"spritesize"	"0.5 0.0 36 46"
+				"spriterandomscale"	"0.1"
+				"amount" "0.10"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model5 //dandelion weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"341 819 250 205 1024"
+				"spritesize"	"0.5 0.0 25 20"
+				"spriterandomscale"	"0.1"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"22"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model6 //weed grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"412 597 240 132 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model7 //single seedy weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"764 583 83 237 1024"
+				"spritesize"	"0.5 0.0 10 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model8 //thin leaf bunch
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"590 819 139 205 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+	skybox_flashtrees01
+	{
+		"density" "600.0" //how often they appear inside material
+
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		Group2
+		{
+			"alpha" "0.5"
+		}
+		Group3
+		{
+			"alpha" "0.4"
+
+			Model1 //huge bushtree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 0 249 288 1024"
+				"spritesize"	"0.5 0.0 50 50"
+				"spriterandomscale"	"0.3"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+
+			Model2 //round tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"249 0 290 288 1024"
+				"spritesize"	"0.5 0.0 80 80"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.02"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+
+			Model3 //tall thin tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"539 0 150 288 1024"
+				"spritesize"	"0.5 0.0 70 85"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+
+			Model4 //medium puff bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 819 276 178 1024"
+				"spritesize"	"0.5 0.0 75 65"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+			Model5 //medium puff tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 294 164 230 1024"
+				"spritesize"	"0.5 0.0 50 60"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.05"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+			Model6 //medium scattered tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"163 294 216 230 1024"
+				"spritesize"	"0.5 0.0 60 65"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+
+			Model7 //tall thin bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"378 294 94 230 1024"
+				"spritesize"	"0.5 0.0 45 110"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"0"
+				"shape_size"	"0.01"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+			Model9 //huge bushtree2
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"177 523 236 297 1024"
+				"spritesize"	"0.5 0.0 85 100"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"3"
+				"shape_size"	"0.03"
+				"sway"	"0.1"
+				"upright"    "1"
+			}
+
+		}
+	}
+
+	argentan_grass_med
+	{
+		"density" "105.0" //how often they appear inside material
+
+		Group1
+		{
+			"alpha" "1.0"
+		}
+		Group2
+		{
+			"alpha" "0.5"
+		}
+		Group3
+		{
+			"alpha" "0.0"
+			
+//			Model1
+//			{
+//				"sprite" "0 0 128 128 1024" //start at 0,0...128,128 is size of box in material, 1024 is material size
+//				"spritesize"	"0.5 0.0 40 50" //last two numbers are world size of sprite
+//				"spriterandomscale"	"0.2" //randomness of sprite sizes
+//				"amount" "0.3" //relative amount of sprite...keep in thirds for three. if four sprites, would be .25
+//				"detailOrientation" "2" //faces player. 0 would not rotate. 1 does ugly things.
+//				"sway"	"0.9" //0-1. 0 doesn't sway much, 1 sways a lot
+//			}
+			
+//			Model2
+//			{
+//				"sprite_shape"	"cross"
+//				"sprite"	"0 139 116 124 1024"
+//				"spritesize"	"0.5 0.0 40 50"
+//				"spriterandomscale"	"0.2"
+//				"amount" "0.3"
+//				"detailOrientation" "0"
+//				"sway"	"0.1"
+//			}
+			
+			Model1 //main grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"776 0 248 121 1024"
+				"spritesize"	"0.5 0.0 50 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.7"
+				"detailOrientation" "0"
+				"shape_angle"	"25" //degrees of tip/flare
+				"shape_size"	"0.025" //0 means that percentage times width of sprite. no overlap. .01 is like snowflake.
+				"sway"	"0.3"
+			}
+
+			Model2 //light green weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"510 294 171 280 1024"
+				"spritesize"	"0.5 0.0 10 30"
+				"spriterandomscale"	"0.4"
+				"amount" "0.05"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.035"
+				"sway"	"0.5"
+			}
+
+			Model3 //purple weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"680 294 167 280 1024"
+				"spritesize"	"0.5 0.0 16 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+
+			Model4 //seeder weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"846 294 178 267 1024"
+				"spritesize"	"0.5 0.0 36 46"
+				"spriterandomscale"	"0.1"
+				"amount" "0.10"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model5 //dandelion weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"341 819 250 205 1024"
+				"spritesize"	"0.5 0.0 25 20"
+				"spriterandomscale"	"0.1"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"22"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model6 //weed grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"412 597 240 132 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model7 //single seedy weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"764 583 83 237 1024"
+				"spritesize"	"0.5 0.0 10 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model8 //thin leaf bunch
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"590 819 139 205 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+		}
+	}
+
+	
+	// Detail shapes
+	//	
+	// "amount"	"0.3"		- ratio of this type of detail relative to other types
+	//
+	// "sprite"	"x y width height dimension"	- coordinates in the detail texture
+	//
+	// "detailOrientation"	"0"		- do not orient towards the player, use this for shaped sprites
+	//						"1"		- always face the viewer
+	//						"2"		- rotate the sprite in x,y only
+	//
+	// "spriterandomscale"	"0.2"	- random size std. deviation
+	//
+	// "spritesize"		"0.5 0.0 40 50"		- ?, ?, width, height
+	//
+	// "sprite_shape"	"tri"	 - this makes a detail in the exploded prism shape
+	// "sprite_shape"	"cross"  - this makes a criss-cross shape
+	// "sway"	"0.3"		- 0.0 -> 1.0, percent of cl_detail_max_sway ( default 5 )
+	//
+	// specific for the tri shape
+	// "shape_angle"	"x"		- degress to angle out each of the leaves
+	// "shape_size"		"x"		- percent of sprite width to separate each leaf. near 0 for a triangle shape, near 1 for a closer, criss-cross shape
+
+	detail_debris
+	{
+		"density" "800.0"
+
+		Group1
+		{
+			"alpha" "1.0"
+
+			Model1
+			{
+				"model" "models/props_debris/detail_debris_rock1.mdl"
+				"amount" "0.06"
+			}
+			Model2
+			{
+				"model" "models/props_debris/detail_debris_rock2.mdl"
+				"amount" "0.06"
+			}
+			Model3
+			{
+				"model" "models/props_debris/detail_debris_wood1.mdl"
+				"amount" "0.02"
+			}
+			Model4
+			{
+				"model" "models/props_debris/detail_debris_wood2.mdl"
+				"amount" "0.02"
+			}
+			Model5
+			{
+				"model" "models/props_debris/detail_debris_wood3.mdl"
+				"amount" "0.02"
+			}
+			Model6
+			{
+				"model" "models/props_debris/detail_debris_wood4.mdl"
+				"amount" "0.02"
+			}
+			Model7
+			{
+				"model" "models/props_debris/detail_debris_rock3.mdl"
+				"amount" "0.06"
+			}
+			Model8
+			{
+				"model" "models/props_debris/detail_debris_rock4.mdl"
+				"amount" "0.06"
+			}
+			Model9
+			{
+				"model" "models/props_debris/detail_debris_rock5.mdl"
+				"amount" "0.06"
+			}
+			Model10
+			{
+				"model" "models/props_debris/detail_debris_rock6.mdl"
+				"amount" "0.06"
+			}
+			Model11
+			{
+				"model" "models/props_debris/detail_debris_rock7.mdl"
+				"amount" "0.06"
+			}
+					
+		}
+		Group2
+		{
+			"alpha" ".5"
+
+			Model1
+			{
+				"model" "models/props_debris/detail_debris_rock1.mdl"
+				"amount" "0.03"
+			}
+			Model2
+			{
+				"model" "models/props_debris/detail_debris_rock2.mdl"
+				"amount" "0.03"
+			}
+			Model3
+			{
+				"model" "models/props_debris/detail_debris_wood1.mdl"
+				"amount" "0.01"
+			}
+			Model4
+			{
+				"model" "models/props_debris/detail_debris_wood2.mdl"
+				"amount" "0.01"
+			}
+			Model5
+			{
+				"model" "models/props_debris/detail_debris_wood3.mdl"
+				"amount" "0.01"
+			}
+			Model6
+			{
+				"model" "models/props_debris/detail_debris_wood4.mdl"
+				"amount" "0.01"
+			}
+			Model7
+			{
+				"model" "models/props_debris/detail_debris_rock3.mdl"
+				"amount" "0.03"
+			}
+			Model8
+			{
+				"model" "models/props_debris/detail_debris_rock4.mdl"
+				"amount" "0.03"
+			}
+			Model9
+			{
+				"model" "models/props_debris/detail_debris_rock5.mdl"
+				"amount" "0.03"
+			}
+			Model10
+			{
+				"model" "models/props_debris/detail_debris_rock6.mdl"
+				"amount" "0.03"
+			}
+			Model11
+			{
+				"model" "models/props_debris/detail_debris_rock7.mdl"
+				"amount" "0.03"
+			}
+					
+		}
+		Group3
+		{
+			"alpha" "0.0"
+		}
+	}
+
+	skybox_avalanche_trees01
+	{
+		"density" "500.0" //how often they appear inside material
+
+		Group1
+		{
+			"alpha" "0.0"
+		}
+		Group2
+		{
+			"alpha" "0.65"
+		}
+		Group3
+		{
+			"alpha" "1.0"
+
+			Model1 //huge bushtree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 0 249 288 1024"
+				"spritesize"	"0.5 0.0 80 90"
+				"spriterandomscale"	"0.2"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"upright"    "1"
+			}
+
+
+			Model2 //round tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"249 0 290 288 1024"
+				"spritesize"	"0.5 0.0 60 60"
+				"spriterandomscale"	"0.2"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.02"
+				"upright"    "1"
+			}
+
+
+			Model3 //tall thin tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"539 0 150 288 1024"
+				"spritesize"	"0.5 0.0 50 65"
+				"spriterandomscale"	"0.2"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"upright"    "1"
+			}
+
+
+			Model4 //long low bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"688 180 336 96 1024"
+				"spritesize"	"0.5 0.0 60 10"
+				"spriterandomscale"	"0.1"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.08"
+				"upright"    "1"
+			}
+
+
+			Model5 //medium puff tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 294 164 230 1024"
+				"spritesize"	"0.5 0.0 30 40"
+				"spriterandomscale"	"0.2"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.05"
+				"upright"    "1"
+			}
+
+			Model6 //medium scattered tree
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"163 294 216 230 1024"
+				"spritesize"	"0.5 0.0 40 45"
+				"spriterandomscale"	"0.2"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"upright"    "1"
+			}
+
+
+			Model7 //tall thin bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"378 294 94 230 1024"
+				"spritesize"	"0.5 0.0 25 90"
+				"spriterandomscale"	"0.2"
+				"amount" "0.1"
+				"detailOrientation" "0"
+				"shape_angle"	"0"
+				"shape_size"	"0.01"
+				"upright"    "1"
+			}
+
+			Model8 //medium scattered bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 523 177 297 1024"
+				"spritesize"	"0.5 0.0 30 35"
+				"spriterandomscale"	"0.2"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"upright"    "1"
+			}
+
+			Model9 //huge bushtree2
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"177 523 236 297 1024"
+				"spritesize"	"0.5 0.0 65 80"
+				"spriterandomscale"	"0.2"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"3"
+				"shape_size"	"0.03"
+				"upright"    "1"
+			}
+
+			Model10 //medium puff bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"0 819 276 178 1024"
+				"spritesize"	"0.5 0.0 55 45"
+				"spriterandomscale"	"0.2"
+				"amount" "0.01"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"upright"    "1"
+			}
+		}
+	}
+
+	skybox_avalanche_trees02
+	{
+		"density" "500.0" //how often they appear inside material
+
+		Group1
+		{
+			"alpha" "0.0"
+		}
+		Group2
+		{
+			"alpha" "0.75"
+		}
+		Group3
+		{
+			"alpha" "1.0"
+
+			Model1 //tall thin bush
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"378 294 94 230 1024"
+				"spritesize"	"0.5 0.0 25 60"
+				"spriterandomscale"	"0.2"
+				"amount" "0.35"
+				"detailOrientation" "0"
+				"shape_angle"	"0"
+				"shape_size"	"0.01"
+				"upright"    "1"
+			}
+
+		}
+	}
+
+	avalanche_grass01
+	{
+		"density" "600.0" //how often they appear inside material
+
+		Group1
+		{
+			"alpha" "0.0"
+		}
+		Group2
+		{
+			"alpha" "0.45"
+		}
+		Group3
+		{
+			"alpha" "0.75"
+			
+			Model1 //weed grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"412 597 240 132 1024"
+				"spritesize"	"0.5 0.0 15 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.5"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+			}		
+
+		}
+		Group4
+		{
+			"alpha" "1.0"
+			
+			
+			Model1 //main grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"776 0 248 121 1024"
+				"spritesize"	"0.5 0.0 50 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.7"
+				"detailOrientation" "0"
+				"shape_angle"	"25" //degrees of tip/flare
+				"shape_size"	"0.025" //0 means that percentage times width of sprite. no overlap. .01 is like snowflake.
+			}
+
+			Model2 //light green weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"510 294 171 280 1024"
+				"spritesize"	"0.5 0.0 10 30"
+				"spriterandomscale"	"0.4"
+				"amount" "0.05"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.035"
+			}
+
+			Model3 //purple weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"680 294 167 280 1024"
+				"spritesize"	"0.5 0.0 16 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+
+			Model4 //seeder weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"846 294 178 267 1024"
+				"spritesize"	"0.5 0.0 36 46"
+				"spriterandomscale"	"0.1"
+				"amount" "0.10"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model5 //dandelion weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"341 819 250 205 1024"
+				"spritesize"	"0.5 0.0 25 20"
+				"spriterandomscale"	"0.1"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"22"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model6 //weed grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"412 597 240 132 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model7 //single seedy weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"764 583 83 237 1024"
+				"spritesize"	"0.5 0.0 10 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model8 //thin leaf bunch
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"590 819 139 205 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+		}
+	}
+	avalanche_grass02
+	{
+		"density" "1200.0" //how often they appear inside material
+
+		Group1
+		{
+			"alpha" "0.0"
+		}
+		Group2
+		{
+			"alpha" "0.6"
+		}
+		Group3
+		{
+			"alpha" "0.75"
+			
+			Model1 //weed grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"412 597 240 132 1024"
+				"spritesize"	"0.5 0.0 15 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.7"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+			}		
+
+		}
+		Group4
+		{
+			"alpha" "1.0"
+			
+			
+			Model1 //main grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"776 0 248 121 1024"
+				"spritesize"	"0.5 0.0 50 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.7"
+				"detailOrientation" "0"
+				"shape_angle"	"25" //degrees of tip/flare
+				"shape_size"	"0.025" //0 means that percentage times width of sprite. no overlap. .01 is like snowflake.
+			}
+
+			Model2 //light green weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"510 294 171 280 1024"
+				"spritesize"	"0.5 0.0 10 30"
+				"spriterandomscale"	"0.4"
+				"amount" "0.05"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.035"
+				"sway"	"0.5"
+			}
+
+			Model3 //purple weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"680 294 167 280 1024"
+				"spritesize"	"0.5 0.0 16 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+
+			Model4 //seeder weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"846 294 178 267 1024"
+				"spritesize"	"0.5 0.0 36 46"
+				"spriterandomscale"	"0.1"
+				"amount" "0.10"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model5 //dandelion weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"341 819 250 205 1024"
+				"spritesize"	"0.5 0.0 25 20"
+				"spriterandomscale"	"0.1"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"22"
+				"shape_size"	"0.01"
+				"sway"	"0.5"
+			}
+
+			Model6 //weed grass
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"412 597 240 132 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model7 //single seedy weed
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"764 583 83 237 1024"
+				"spritesize"	"0.5 0.0 10 20"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+
+			Model8 //thin leaf bunch
+			{
+				"sprite_shape"	"tri"
+				"sprite"	"590 819 139 205 1024"
+				"spritesize"	"0.5 0.0 25 30"
+				"spriterandomscale"	"0.2"
+				"amount" "0.015"
+				"detailOrientation" "0"
+				"shape_angle"	"10"
+				"shape_size"	"0.03"
+				"sway"	"0.5"
+			}
+		}
+	}
+	Peacekeeper
+	{
+		"density" "310"
+
+		Group1
+		{
+			"alpha" "0"
+
+			Model1
+			{
+				"sprite" "0 0 512 512 2048" 
+				"spritesize" "0.5 0.0 50 50"
+				"spriterandomscale" "0.3"
+				"amount" "0.02"
+                                "maxangle" "70"
+			        "sprite_shape" "tri"
+			        "shape_angle" "15"
+			        "shape_size" "0.2"
+                                "sway"  "0.6"
+
+
+			}
+			Model2
+			{
+				"sprite" "1024 0 512 512 2048" 
+				"spritesize" "0.44 0.0 40 40"
+				"spriterandomscale" "0.3"
+				"amount" "0.2"
+			        "sprite_shape" "tri"
+			        "shape_angle" "20"
+			        "shape_size" "0.1"
+                                "sway"  "0.3"
+
+                        }
+			Model3
+			{
+				"sprite" "1600 0 448 512 2048" 
+				"spritesize" "0.75 0.0 30 35"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+                                "upright" "1"
+                                "maxangle" "70"
+			        "sprite_shape" "tri"
+			        "shape_angle" "20"
+			        "shape_size" "0.2"
+                                "sway"  "0.3"
+			}
+			Model4
+			{
+				"sprite" "1152 576 512 512 2048" 
+				"spritesize" "0.5 0.0 45 45"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+                                "upright" "1"
+                                "maxangle" "70"
+			        "sprite_shape" "tri"
+			        "shape_angle" "15"
+			        "shape_size" "0.1"
+                                "sway"  "0.3"
+			}
+			Model5
+			{
+				"sprite" "0 1152 512 512 2048" 
+				"spritesize" "0.44 0.0 45 45"
+				"spriterandomscale" "0.3"
+				"amount" "0.05"
+                                "upright" "1"
+                                "maxangle" "70"
+			        "sprite_shape" "tri"
+			        "shape_angle" "15"
+			        "shape_size" "0.1"
+                                "sway"  "0.3"
+			}
+			Model6
+			{
+				"sprite" "0 1680 928 368 2048" 
+				"spritesize" "0.5 0.0 75 30"
+				"spriterandomscale" "0.3"
+				"amount" "0.1"
+                                "upright" "1"
+                                "maxangle" "70"
+			        "sprite_shape" "tri"
+			        "shape_angle" "10"
+			        "shape_size" "0.3"
+                                "sway"  "0.3"		
+		        }
+			Model7
+			{
+				"sprite" "928 1680 608 368 2048" 
+				"spritesize" "0.5 0.0 48 30"
+				"spriterandomscale" "0.3"
+				"amount" "0.25"
+                                "upright" "1"
+                                "maxangle" "70"
+			        "sprite_shape" "tri"
+			        "shape_angle" "15"
+			        "shape_size" "0.3"
+                                "sway"  "0.3"
+			}
+			Model8
+			{
+				"sprite" "1536 1680 512 368 2048" 
+				"spritesize" "0.5 0.0 50 36"
+				"spriterandomscale" "0.3"
+				"amount" "0.18"
+                                "upright" "1"
+                                "maxangle" "70"
+			        "sprite_shape" "tri"
+			        "shape_angle" "15"
+			        "shape_size" "0.3"
+                                "sway"  "0.3"
+			}
+                 }
+                Group2
+                       {
+                      "alpha" "0.6"
+                   Model1
+                       {
+                       }
+
+		}
+	}
+}

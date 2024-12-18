@@ -1,0 +1,7 @@
+<html>
+<body bgcolor="black">
+<center>
+<img src="motd.png">
+</center>
+</body>
+</html>

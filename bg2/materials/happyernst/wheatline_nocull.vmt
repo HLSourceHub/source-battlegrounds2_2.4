@@ -1,0 +1,6 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "happyernst/wheatline"
+	"$translucent" 1
+	"$nocull" 1
+}

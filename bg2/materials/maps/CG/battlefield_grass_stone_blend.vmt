@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "maps/cg/battlefield_grass"
+   	"$basetexture2" "maps/cg/battlefield_stone"
+   	"%tooltexture" "maps/cg/battlefield_grass"
+"%detailtype" "Peacekeeper"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "dirt"
+$blendmodulatetexture "ground/concordgrassblend"
+
+	
+}

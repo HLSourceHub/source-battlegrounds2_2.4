@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    "$basetexture" "maps/tomdon/tomdon_shadow"
+    "$decal" 1
+    "$decalscale" 0.10
+    "$translucent" 1
+}

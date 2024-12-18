@@ -1,0 +1,5 @@
+"Unlitgeneric"
+{
+	"$baseTexture" "hud/brit_stamina"
+	"$translucent" 1
+}

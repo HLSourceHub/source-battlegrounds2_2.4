@@ -1,0 +1,13 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/jayarc/coalstove"
+	"$surfaceprop" "SolidMetal"
+"$bumpmap" "models/jayarc/coalstove_normal"
+	"$phong" "1"
+	"$phongexponent" "9"
+	"$phongboost"	"0.3"
+	"$phongfresnelranges"	"[1 8 6]"
+
+}
+
+

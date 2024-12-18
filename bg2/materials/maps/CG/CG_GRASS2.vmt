@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    	"$basetexture" "maps/CG/CG_GRASS"
+	"$bumpmap" "maps/CG/CG_GRASS_bump"
+}

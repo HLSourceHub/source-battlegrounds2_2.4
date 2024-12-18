@@ -1,0 +1,10 @@
+"Vertexlitgeneric"
+{
+	"$baseTexture" "vas_can/CANNON1"
+	"$bumpmap" 	"vas_can/CANNON1_normal"
+"$phong" "1"
+"$phongexponent" 33
+"$phongboost""8"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+}

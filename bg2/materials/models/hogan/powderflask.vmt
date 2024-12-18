@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/hogan/powderflask"
+	$envmap			env_cubemap
+	$envmapmask		"models/hogan/powderflask_spec"
+}

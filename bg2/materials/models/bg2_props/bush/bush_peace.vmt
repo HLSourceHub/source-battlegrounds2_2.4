@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\bush\bush_peace"
+	"$translucent" 1
+	"$alphatest" 1
+        "$nocull" 1
+}

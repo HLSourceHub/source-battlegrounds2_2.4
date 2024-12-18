@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\hogan\lantern_glass"
+	"$translucent" "1"
+
+}

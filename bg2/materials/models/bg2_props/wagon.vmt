@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\bg2_props\wagon"
+	"$surfaceprop" "Wood_Plank"
+                "$model" 1
+}

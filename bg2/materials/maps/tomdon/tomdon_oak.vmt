@@ -1,0 +1,7 @@
+"LightmappedGeneric"
+{
+    	"$basetexture" "maps\tomdon\tomdon_oak"
+	"$translucent" 1
+ 	"$alphatest" 1
+	"$nocull" 1
+}

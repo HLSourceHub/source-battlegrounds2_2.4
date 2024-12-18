@@ -1,0 +1,7 @@
+"WorldVertexTransition"
+{
+"$basetexture" "maps/cg/cg_rock_grey"
+"$basetexture2" "nature/snowfloor001a"
+"$surfaceprop" "rock"
+"$surfaceprop2" "snow" 
+}

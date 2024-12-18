@@ -1,0 +1,6 @@
+"lightmappedGeneric"
+{
+	"$baseTexture" "de_chateau/roofa"
+	"$bumpmap" "de_chateay/roofa_normal"
+	"$surfaceprop" "tile"
+}

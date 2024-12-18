@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "bg_grantel/bg_forge_textures/wood_ship"
+	"$surfaceprop" "wood"
+	"$detail" "bg_grantel/bg_detailtextures/wood02"
+	"$detailscale" .3
+}
+

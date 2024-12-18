@@ -1,0 +1,10 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "semmel/grass/sem_grass_04"
+   	"$basetexture2" "semmel/grass/sem_grass_02"
+   	"%tooltexture" "semmel/grass/sem_grass_04"
+	"%detailtype" "jakedetail1"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "dirt"
+}

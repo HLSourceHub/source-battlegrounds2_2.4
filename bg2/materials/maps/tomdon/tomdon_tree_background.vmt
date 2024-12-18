@@ -1,0 +1,6 @@
+"LightmappedGeneric"
+{
+	"$baseTexture" "maps\tomdon/tomdon_tree_background"
+	"$translucent" 1
+ 	"$alphatest" 1
+}

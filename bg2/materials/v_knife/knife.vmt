@@ -1,0 +1,16 @@
+"vertexlitgeneric"
+{
+	"$baseTexture" "v_knife/knife"
+	"$envmap" "env_cubemap" 
+	//"$bumpmap"	"v_knife/knife_normal"
+	//"$normalmapalphaenvmapmask" "1"
+	"$envmapcontrast" "0.3"
+	"$envmapsaturation" "0.7"
+	"$envmaptint" "[ 0.25 0.25 0.25 ]"
+"$phong" "1"
+"$phongexponent" 33
+"$phongboost""9"
+"$phongfresnelranges""[0 0.5 1]"
+                "$halflambert"  1
+
+}

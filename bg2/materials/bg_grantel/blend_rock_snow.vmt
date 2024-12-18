@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "nature/rockfloor005a"
+        "$basetexture2" "bg_grantel/snow"
+	"$surfaceprop" "dirt"
+	"$surfaceprop2" "snow"
+	"$detail" "bg_grantel/detail_snowlake"
+	"$detailscale" .2
+}

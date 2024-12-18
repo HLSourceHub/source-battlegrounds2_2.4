@@ -1,0 +1,8 @@
+"WorldVertexTransition"
+{
+   	"$basetexture" "maps\tomdon\tomdon_grass_dark"
+	"$basetexture2" "maps\tomdon\tomdon_mud"
+   	"%tooltexture" "maps\tomdon\tomdon_grass_dark"
+	"$surfaceprop" "dirt"
+	%detailtype Peacekeeper
+}

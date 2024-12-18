@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\hogan\lantern"
+	$envmap			env_cubemap
+	$envmapmask		"models/hogan/lantern_spec"
+}

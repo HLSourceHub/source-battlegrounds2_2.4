@@ -1,0 +1,7 @@
+"LightMappedGeneric"
+{
+	"$basetexture"	"bg_grantel/bg_forge_textures/mz_stoned_1"
+	"$surfaceprop"	"concrete"
+	"$detail"	"bg_grantel/bg_detailtextures/structure"
+	"$detailscale"	.6
+}

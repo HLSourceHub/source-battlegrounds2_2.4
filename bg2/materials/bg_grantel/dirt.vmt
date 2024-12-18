@@ -1,0 +1,8 @@
+"LightMappedGeneric"
+{
+	"$basetexture" "bg_grantel/dirt"
+	"$surfaceprop" "dirt"
+	"$detail" "bg_snowlake/detail_snowlake"
+	"$detailscale" .2
+}
+

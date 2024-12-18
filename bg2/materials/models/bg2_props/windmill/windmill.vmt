@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\bg2_props\windmill/windmill"
+	"$nocull" 1
+}

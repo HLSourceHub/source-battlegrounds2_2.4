@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+"$baseTexture"      "models/hawke/Wood_Door01"
+ "$surfaceprop" "wood"
+ "$nocull" 1
+}

@@ -1,0 +1,9 @@
+"WorldVertexTransition"
+{
+	"$basetexture" "maps\tomdon\tomdon_mud_bank"
+	"$basetexture2" "maps\tomdon\tomdon_grass"
+	"%tooltexture" "maps\tomdon\tomdon_mud_bank"
+	"$basetexturetransform" "center .5 .5 scale 1 1 rotate 0 translate 0 0"
+	"$basetexturetransform2" "center .5 .5 scale 1 1 rotate 10 translate 0 0"
+	"$surfaceprop" "dirt"
+}

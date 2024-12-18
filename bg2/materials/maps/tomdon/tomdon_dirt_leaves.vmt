@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+    	"$basetexture" "maps/tomdon/tomdon_dirt_leaves"
+	"$surfaceprop" "dirt"
+}

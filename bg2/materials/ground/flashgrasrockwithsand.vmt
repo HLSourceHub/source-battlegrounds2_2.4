@@ -1,0 +1,13 @@
+"WorldVertexTransition"
+{
+	"$basetexture" 	"nature/sandfloor007b"
+	"$basetexture2" "jake/cavernwall"
+	"%tooltexture" "nature/blendsandrock005b_tooltexture"
+	"$surfaceprop" "sand"
+	"%keywords" "dod"
+	"$bumpmap" "nature/sandfloor007b_normal"
+	"$bumpmap2" "jake/cavernwall_normal"
+$blendmodulatetexture "ground/concordgrassblend"
+
+}
+

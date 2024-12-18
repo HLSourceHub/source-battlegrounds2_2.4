@@ -1,0 +1,16 @@
+"WorldVertexTransition"
+{
+    	
+   	"$basetexture" "nature/grass01"
+   	"$basetexture2" "jake/cavernwall"
+   	"%tooltexture" "jake/cavernwall"
+	"$bumpmap2" "jake/cavernwall_normal"
+	"%detailtype" "Peacekeeper"
+	$detail detail\rock_detail_01
+	$detailscale 11
+	$detailblendfactor 1
+	$detailblendmode 0
+	$blendmodulatetexture "ground/concordgrassblend"
+
+
+}
